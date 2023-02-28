@@ -3306,6 +3306,7 @@ body .pbmit-service-style-3 .btn3-color-globalcolor{
 .pbmit-header-overlay {
     position: absolute;
     width: 100%;
+    top: 10px;
     z-index: 2;
 }
 .site-header .pbmit-pre-header-right .pbmit-social-li {

@@ -653,6 +653,9 @@ body .pbmit-bg-color-white{
     height: 55px;
     line-height: 55px;
 }
+.pre-header .pbmit-social-links li a{
+    font-size: 25px!important;
+}
  .list-unstyled i{
     font-size: 14px;
     color: #666;
