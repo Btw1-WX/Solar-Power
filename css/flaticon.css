@@ -1,0 +1,71 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 23/01/2019 13:57
+  	*/
+
+	  @font-face {
+		font-family: "Flaticon";
+		src: url("../fonts/Flaticon.html");
+		src: url("../fonts/Flaticond41d.html?#iefix") format("embedded-opentype"),
+			 url("../fonts/Flaticon-2.html") format("woff2"),
+			 url("../fonts/Flaticon-3.html") format("woff"),
+			 url("../fonts/Flaticon-4.html") format("truetype"),
+			 url("../fonts/Flaticon-5.html#Flaticon") format("svg");
+		font-weight: normal;
+		font-style: normal;
+	  }
+	  
+	  @media screen and (-webkit-min-device-pixel-ratio:0) {
+		@font-face {
+		  font-family: "Flaticon";
+		  src: url("../fonts/Flaticon-5.html#Flaticon") format("svg");
+		}
+	  }
+	  
+	  [class^="pbmit-greenly-icon-"]:before, [class*=" pbmit-greenly-icon-"]:before,
+	  [class^="pbmit-greenly-icon-"]:after, [class*=" pbmit-greenly-icon-"]:after {   
+		font-family: Flaticon;
+		font-style: normal;
+	  }
+	  
+	  .pbmit-greenly-icon-light:before { content: "\f100"; }
+	  .pbmit-greenly-icon-light-bulb:before { content: "\f101"; }
+	  .pbmit-greenly-icon-solar-panel:before { content: "\f102"; }
+	  .pbmit-greenly-icon-sun:before { content: "\f103"; }
+	  .pbmit-greenly-icon-windmill:before { content: "\f104"; }
+	  .pbmit-greenly-icon-flask:before { content: "\f105"; }
+	  .pbmit-greenly-icon-greenhouse:before { content: "\f106"; }
+	  .pbmit-greenly-icon-save-water:before { content: "\f107"; }
+	  .pbmit-greenly-icon-solar-energy:before { content: "\f108"; }
+	  .pbmit-greenly-icon-solar-panel-1:before { content: "\f109"; }
+	  .pbmit-greenly-icon-renewable-energy:before { content: "\f10a"; }
+	  .pbmit-greenly-icon-recycling-bin:before { content: "\f10b"; }
+	  .pbmit-greenly-icon-recycling:before { content: "\f10c"; }
+	  .pbmit-greenly-icon-solar-panel-2:before { content: "\f10d"; }
+	  .pbmit-greenly-icon-recycle-bin:before { content: "\f10e"; }
+	  .pbmit-greenly-icon-solar-energy-1:before { content: "\f10f"; }
+	  .pbmit-greenly-icon-nuclear:before { content: "\f110"; }
+	  .pbmit-greenly-icon-eco-fuel:before { content: "\f111"; }
+	  .pbmit-greenly-icon-eolic-energy:before { content: "\f112"; }
+	  .pbmit-greenly-icon-planet-earth:before { content: "\f113"; }
+	  .pbmit-greenly-icon-plug:before { content: "\f114"; }
+	  .pbmit-greenly-icon-recycling-1:before { content: "\f115"; }
+	  .pbmit-greenly-icon-solar-panel-3:before { content: "\f116"; }
+	  .pbmit-greenly-icon-leaf:before { content: "\f117"; }
+	  .pbmit-greenly-icon-saturn:before { content: "\f118"; }
+	  .pbmit-greenly-icon-heart:before { content: "\f119"; }
+	  .pbmit-greenly-icon-users:before { content: "\f11a"; }
+	  .pbmit-greenly-icon-calendar:before { content: "\f11b"; }
+	  .pbmit-greenly-icon-calendar-1:before { content: "\f11c"; }
+	  .pbmit-greenly-icon-headset:before { content: "\f11d"; }
+	  .pbmit-greenly-icon-24-hours:before { content: "\f11e"; }
+	  .pbmit-greenly-icon-email:before { content: "\f11f"; }
+	  .pbmit-greenly-icon-placeholder:before { content: "\f120"; }
+	  .pbmit-greenly-icon-pin:before { content: "\f121"; }
+	  .pbmit-greenly-icon-call:before { content: "\f122"; }
+	  .pbmit-greenly-icon-message:before { content: "\f123"; }
+	  .pbmit-greenly-icon-smartphone:before { content: "\f124"; }
+	  .pbmit-greenly-icon-smartphone-1:before { content: "\f125"; }
+	  .pbmit-greenly-icon-placeholder-1:before { content: "\f126"; }
+	  .pbmit-greenly-icon-mail:before { content: "\f127"; }
+	  

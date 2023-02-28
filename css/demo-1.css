@@ -1,0 +1,43 @@
+/******************************
+INDEX:
+    00 - General
+    01 - Typography
+    02 - Text Color & Background Color
+    03 - Background Position & Size
+    04 - Helper class
+    05 - Social icons
+    06 - Header
+    07 - Bootstrap Overwrite 
+    08 - Swiper 
+    09 - Scroll To Top 
+    10 - Search Box
+******************************/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap');
+
+ :root {
+     --pbmit-global-color:  #86bb46;
+     --pbmit-secondary-color: #888888;
+     --pbmit-light-color: #f7f9fa;
+     --pbmit-white-color:#ffffff;
+     --pbmit-blackish-color: #0c121d;
+     --pbmit-link-color-normal: #222222;
+     --pbmit-link-color-hover:#86bb46;
+     --pbmit-global-color-rgb:rgb(134, 187, 70) ;
+     --pbmit-secondary-color-rgb: rgb(136, 136, 136);
+     --pbmit-responsive-breakpoint: 1200px;
+     --pbmit-body-typography-font-family:'Roboto', sans-serif;
+     --pbmit-body-typography-variant: regular;
+     --pbmit-body-typography-font-size: 16px;
+     --pbmit-body-typography-line-height: 24px;
+     --pbmit-body-typography-color: #888888;
+     --pbmit-heading-typography-font-family:'Asap', sans-serif;
+     --pbmit-heading-color: #222222;
+     --pbmit-heading-font-variant: 700;
+     --pbmit-btn-typography-font-family:'Roboto', sans-serif;
+     --pbmit-btn-typography-variant: 700;
+     --pbmit-btn-typography-font-size: 14px;
+     --pbmit-btn-typography-line-height: 26px;
+	 --border-radius: 3px;
+}
+ 
