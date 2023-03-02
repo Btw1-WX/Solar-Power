@@ -3354,7 +3354,7 @@ body .pbmit-service-style-3 .btn3-color-globalcolor{
     height: 120px;
 }
 .header-style-1.site-header .site-branding img{
-	max-height: 55px;
+    max-height: 80px;
 }
 .header-style-1 .pbmit-header-info-inner>.pbmit-header-box-1,
 .header-style-1 .pbmit-header-info-inner>.pbmit-header-box-2,
@@ -3413,14 +3413,14 @@ body .pbmit-service-style-3 .btn3-color-globalcolor{
     top: 0;
     left: 0;
     height: 1px;
-    background-color: #f1f1f1!important;
+    /* background-color: #f1f1f1!important; */
 }
-.header-style-1 .navbar-collapse ul{
+/* .header-style-1 .navbar-collapse ul{
 	border-left: 1px solid #eee;
 }
 .header-style-1 .navbar-collapse ul li {
     border-right: 1px solid #eee;
-}
+} */
 .header-style-1 .navbar-collapse ul li a{
 	margin: 0 20px;
 	font-family: Roboto,sans-serif;
