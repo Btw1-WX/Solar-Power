@@ -40,6 +40,10 @@
 	<link rel="stylesheet" href="css/responsive.css">
 	<!-- REVOLUTION STYLE SHEETS -->
 	<link rel="stylesheet" type="text/css" href="revolution/rs6.css">
+	<!-- AOS animate -->
+	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+	<!-- animate -->
+	<link rel="stylesheet" href="./css/animate.css">
 </head>
 
 <body>
@@ -117,7 +121,7 @@
 						<rs-slides>
 							<rs-slide style="position: absolute;" data-key="rs-1" data-title="Slide"
 								data-thumb="revolution/images/slider-2-a-100x50.jpg" data-in="o:0;" data-out="a:false;">
-								<img src="revolution/images/slider-2-a.jpg" alt="" title="slider-2-a" width="1600"
+								<img src="./images/banner1.jpg" alt="" title="slider-2-a" width="1600"
 									height="900" class="rev-slidebg tp-rs-img" data-parallax="off" data-no-retina>
 								<!--
 								--><rs-layer id="slider-1-slide-1-layer-1" data-type="text" data-color="#222222" data-rsp_ch="on"
@@ -278,16 +282,16 @@
 				</div>
 			</section> -->
 
-
-
 			<section class="aboutus">
-				<!-- <img src="./images/aboutus.jpg" alt=""> -->
+			<div class="aboutus-bg-img">
+
+			</div>
 				<div class="head">
-					<div class="about-head">
+					<div class="about-head ">
 						<span>ABOUT COMPANY</span>
 					</div>
-					<div class="about-heading">
-						<h1>We’re the #1 solar energy provider!</h1>
+					<div class="about-heading ">
+						<h1 class="fade-right">We’re the #1 solar energy provider!</h1>
 						
 							<p>We believe we can make a difference to this world, to this very earth on which welive.We have been destroying the forests for whatever reasons for many years Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio commodi iusto repudiandae tenetur ipsam dolores quibusdam illo, natus debitis hic. Aut molestias iusto repellendus ea. Vero obcaecati eum et doloremque. </p>
 					</div>
@@ -313,18 +317,18 @@
 				</div>
 				
 			</section>
-		
 			<!-- About Us End -->
 
 			<!-- Service Start -->
-			<section class="section-lg pbmit-bg-color-light">
-				<div class="container">
+			<section class="section-lg pbmit-bg-color-light our-services-main">
+
+				<div class="container our-services-head">
 					<div class="pbmit-heading-subheading text-center">
 						<h4 class="pbmit-subtitle pos"> OUR SERVICES </h4>
 						<h2 class="pbmit-title">We Offer Different Services</h2>
 					</div>
-					<div class="row">
-						<div class="col-md-4">
+					<div class="row our-services-cards">
+						<div class="col-md-4 fade-left">
 							<article class="pbmit-service-style-1">
 								<div class="pbminfotech-post-item">
 									<div class="pbmit-featured-wrapper">
@@ -361,7 +365,7 @@
 								</div>
 							</article>
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-4 fade-up">
 							<article class="pbmit-service-style-1">
 								<div class="pbminfotech-post-item">
 									<div class="pbmit-featured-wrapper">
@@ -398,7 +402,7 @@
 								</div>
 							</article>
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-4 fade-right">
 							<article class="pbmit-service-style-1">
 								<div class="pbminfotech-post-item">
 									<div class="pbmit-featured-wrapper">
@@ -441,133 +445,135 @@
 			<!-- Service End -->
 
 			<!-- Testimonial Start -->
-			<section class="testimonial-section-bg-two">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6"></div>
-						<div class="col-md-6">
-							<div class="swiper-slider" data-autoplay="false" data-dots="true" data-arrows="false"
-								data-columns="1" data-margin="30" data-effect="slide">
-								<div class="swiper-wrapper">
-									<div class="swiper-slide">
-										<!-- Slide1 -->
-										<article class="pbmit-testimonial-style-1">
-											<div class="pbminfotech-post-item">
-												<div class="pbminfotech-box-content">
-													<div class="pbminfotech-box-desc">
-														<blockquote class="pbminfotech-testimonial-text">
-															<p>Cut down on all your work by collaborating with our
-																Launch Pad team to get the framework of your online
-																business up and running in no time.</p>
-														</blockquote>
-													</div>
-													<div class="pbminfotech-box-author">
-														<div class="pbminfotech-box-img">
-															<div class="pbmit-featured-wrapper">
-																<img src="images/homepage-2/testimonial/testimonial-2.jpg"
-																	class="img-fluid" alt="">
-															</div>
+			<section class="test-color-bg">
+				<section class="testimonial-section-bg-two test-bg-img">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6"></div>
+							<div class="col-md-6">
+								<div class="swiper-slider" data-autoplay="false" data-dots="true" data-arrows="false"
+									data-columns="1" data-margin="30" data-effect="slide">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<!-- Slide1 -->
+											<article class="pbmit-testimonial-style-1 bounce-right">
+												<div class="pbminfotech-post-item">
+													<div class="pbminfotech-box-content">
+														<div class="pbminfotech-box-desc">
+															<blockquote class="pbminfotech-testimonial-text">
+																<p>Cut down on all your work by collaborating with our
+																	Launch Pad team to get the framework of your online
+																	business up and running in no time.</p>
+															</blockquote>
 														</div>
-														<h3 class="pbminfotech-box-title">Victoria Porter</h3>
-														<span class="pbmit-designation">CEO of Bata</span>
-														<div class="pbminfotech-box-star-ratings">
-															<i
-																class="pbmit-base-icon-star pbmit-globalcolor pbmit-active"></i>
-															<i
-																class="pbmit-base-icon-star pbmit-globalcolor pbmit-active"></i>
-															<i
-																class="pbmit-base-icon-star pbmit-globalcolor pbmit-active"></i>
-															<i
-																class="pbmit-base-icon-star pbmit-globalcolor pbmit-active"></i>
-															<i
-																class="pbmit-base-icon-star pbmit-globalcolor pbmit-active"></i>
+														<div class="pbminfotech-box-author">
+															<div class="pbminfotech-box-img">
+																<div class="pbmit-featured-wrapper">
+																	<img src="images/homepage-2/testimonial/testimonial-2.jpg"
+																		class="img-fluid" alt="">
+																</div>
+															</div>
+															<h3 class="pbminfotech-box-title">Victoria Porter</h3>
+															<span class="pbmit-designation">CEO of Bata</span>
+															<div class="pbminfotech-box-star-ratings">
+																<i
+																	class="pbmit-base-icon-star pbmit-globalcolor pbmit-active"></i>
+																<i
+																	class="pbmit-base-icon-star pbmit-globalcolor pbmit-active"></i>
+																<i
+																	class="pbmit-base-icon-star pbmit-globalcolor pbmit-active"></i>
+																<i
+																	class="pbmit-base-icon-star pbmit-globalcolor pbmit-active"></i>
+																<i
+																	class="pbmit-base-icon-star pbmit-globalcolor pbmit-active"></i>
+															</div>
 														</div>
 													</div>
 												</div>
-											</div>
-										</article>
-									</div>
-									<div class="swiper-slide">
-										<!-- Slide2 -->
-										<article class="pbmit-testimonial-style-1">
-											<div class="pbminfotech-post-item">
-												<div class="pbminfotech-box-content">
-													<div class="pbminfotech-box-desc">
-														<blockquote class="pbminfotech-testimonial-text">
-															<p>Cut down on all your work by collaborating with our
-																Launch Pad team to get the framework of your online
-																business up and running in no time.</p>
-														</blockquote>
-													</div>
-													<div class="pbminfotech-box-author">
-														<div class="pbminfotech-box-img">
-															<div class="pbmit-featured-wrapper">
-																<img src="images/homepage-2/testimonial/testimonial-1.jpg"
-																	class="img-fluid" alt="">
-															</div>
+											</article>
+										</div>
+										<div class="swiper-slide">
+											<!-- Slide2 -->
+											<article class="pbmit-testimonial-style-1">
+												<div class="pbminfotech-post-item">
+													<div class="pbminfotech-box-content">
+														<div class="pbminfotech-box-desc">
+															<blockquote class="pbminfotech-testimonial-text">
+																<p>Cut down on all your work by collaborating with our
+																	Launch Pad team to get the framework of your online
+																	business up and running in no time.</p>
+															</blockquote>
 														</div>
-														<h3 class="pbminfotech-box-title">Maria Flynn</h3>
-														<span class="pbmit-designation">CEO of Bata</span>
-														<div class="pbminfotech-box-star-ratings">
-															<i
-																class="pbmit-base-icon-star pbmit-globalcolor pbmit-active"></i>
-															<i
-																class="pbmit-base-icon-star pbmit-globalcolor pbmit-active"></i>
-															<i
-																class="pbmit-base-icon-star pbmit-globalcolor pbmit-active"></i>
-															<i
-																class="pbmit-base-icon-star pbmit-globalcolor pbmit-active"></i>
-															<i
-																class="pbmit-base-icon-star pbmit-globalcolor pbmit-active"></i>
+														<div class="pbminfotech-box-author">
+															<div class="pbminfotech-box-img">
+																<div class="pbmit-featured-wrapper">
+																	<img src="images/homepage-2/testimonial/testimonial-1.jpg"
+																		class="img-fluid" alt="">
+																</div>
+															</div>
+															<h3 class="pbminfotech-box-title">Maria Flynn</h3>
+															<span class="pbmit-designation">CEO of Bata</span>
+															<div class="pbminfotech-box-star-ratings">
+																<i
+																	class="pbmit-base-icon-star pbmit-globalcolor pbmit-active"></i>
+																<i
+																	class="pbmit-base-icon-star pbmit-globalcolor pbmit-active"></i>
+																<i
+																	class="pbmit-base-icon-star pbmit-globalcolor pbmit-active"></i>
+																<i
+																	class="pbmit-base-icon-star pbmit-globalcolor pbmit-active"></i>
+																<i
+																	class="pbmit-base-icon-star pbmit-globalcolor pbmit-active"></i>
+															</div>
 														</div>
 													</div>
 												</div>
-											</div>
-										</article>
-									</div>
-									<div class="swiper-slide">
-										<!-- Slide3 -->
-										<article class="pbmit-testimonial-style-1">
-											<div class="pbminfotech-post-item">
-												<div class="pbminfotech-box-content">
-													<div class="pbminfotech-box-desc">
-														<blockquote class="pbminfotech-testimonial-text">
-															<p>Cut down on all your work by collaborating with our
-																Launch Pad team to get the framework of your online
-																business up and running in no time.</p>
-														</blockquote>
-													</div>
-													<div class="pbminfotech-box-author">
-														<div class="pbminfotech-box-img">
-															<div class="pbmit-featured-wrapper">
-																<img src="images/homepage-2/testimonial/testimonial-2.jpg"
-																	class="img-fluid" alt="">
-															</div>
+											</article>
+										</div>
+										<div class="swiper-slide">
+											<!-- Slide3 -->
+											<article class="pbmit-testimonial-style-1">
+												<div class="pbminfotech-post-item">
+													<div class="pbminfotech-box-content">
+														<div class="pbminfotech-box-desc">
+															<blockquote class="pbminfotech-testimonial-text">
+																<p>Cut down on all your work by collaborating with our
+																	Launch Pad team to get the framework of your online
+																	business up and running in no time.</p>
+															</blockquote>
 														</div>
-														<h3 class="pbminfotech-box-title">Mahfuz Riad</h3>
-														<span class="pbmit-designation">CEO of Bata</span>
-														<div class="pbminfotech-box-star-ratings">
-															<i
-																class="pbmit-base-icon-star pbmit-globalcolor pbmit-active"></i>
-															<i
-																class="pbmit-base-icon-star pbmit-globalcolor pbmit-active"></i>
-															<i
-																class="pbmit-base-icon-star pbmit-globalcolor pbmit-active"></i>
-															<i
-																class="pbmit-base-icon-star pbmit-globalcolor pbmit-active"></i>
-															<i
-																class="pbmit-base-icon-star pbmit-globalcolor pbmit-active"></i>
+														<div class="pbminfotech-box-author">
+															<div class="pbminfotech-box-img">
+																<div class="pbmit-featured-wrapper">
+																	<img src="images/homepage-2/testimonial/testimonial-2.jpg"
+																		class="img-fluid" alt="">
+																</div>
+															</div>
+															<h3 class="pbminfotech-box-title">Mahfuz Riad</h3>
+															<span class="pbmit-designation">CEO of Bata</span>
+															<div class="pbminfotech-box-star-ratings">
+																<i
+																	class="pbmit-base-icon-star pbmit-globalcolor pbmit-active"></i>
+																<i
+																	class="pbmit-base-icon-star pbmit-globalcolor pbmit-active"></i>
+																<i
+																	class="pbmit-base-icon-star pbmit-globalcolor pbmit-active"></i>
+																<i
+																	class="pbmit-base-icon-star pbmit-globalcolor pbmit-active"></i>
+																<i
+																	class="pbmit-base-icon-star pbmit-globalcolor pbmit-active"></i>
+															</div>
 														</div>
 													</div>
 												</div>
-											</div>
-										</article>
+											</article>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
+				</section>
 			</section>
 			<!-- Testimonial End -->
 
@@ -575,7 +581,7 @@
 			<section class="section-lg">
 				<div class="container">
 					<div class="row">
-						<div class="col-xl-6 col-lg-12 counter-text">
+						<div class="col-xl-6 col-lg-12 counter-text fade-left">
 							<div class="pbmit-heading-subheading">
 								<h4 class="pbmit-subtitle number-speak">NUMBER SPEAKS</h4>
 								<h2 class="pbmit-title">We always ready for a<br> challenge.</h2>
@@ -583,7 +589,7 @@
 									live.We have been destroying the forests for whatever reasons for many years.</p>
 							</div>
 							<div class="row">
-								<div class="col-md-6 fid-style">
+								<div class="col-md-6 fid-style bounce-right ">
 									<div class="pbminfotech-ele-fid-style-1">
 										<div class="pbmit-fld-contents">
 											<h4 class="pbmit-fid-inner">
@@ -598,7 +604,7 @@
 									</div>
 									<p class="fid-contents">We have been destroying the forests for many years.</p>
 								</div>
-								<div class="col-md-6 fid-style">
+								<div class="col-md-6 fid-style bounce-right ">
 									<div class="pbminfotech-ele-fid-style-1">
 										<div class="pbmit-fld-contents">
 											<h4 class="pbmit-fid-inner">
@@ -619,7 +625,7 @@
 						</div>
 						<div class="col-xl-6 col-lg-12 line">
 							
-							<div class="counter-img_three bulb-img">
+							<div class="counter-img_three bulb-img  fade-down" >
 								<div class="header">
 									<h4>Affordability And Efficiency Of Solar Energy</h4>
 								</div>
@@ -638,143 +644,90 @@
 						<h4 class="pbmit-subtitle ourproject ">OUR PROJECTS</h4>
 						<h2 class="pbmit-title">Experience genuine<br>substantial business growth.</h2>
 					</div>
-					<div class="row g-0">
-						<div class="col-md-2">
-							<article class="pbmit-portfolio-style-1 pbminfotech-overlay-box">
-								<div class="pbminfotech-post-item">
-									<div class="pbmit-featured-wrapper">
-										<img src="images/homepage-1/project/project-new-1.jpg" class="img-fluid" alt="">
-									</div>
-									<div class="pbminfotech-box-content pbminfotech-overlay">
-										<div class="pbminfotech-box-content-inner">
-											<div class="pbminfotech-icon-box pbminfotech-media-link">
-												<a class="pbmit-lightbox" title="So To Deliberately Dender"
-													href="images/homepage-1/project/project-new-1.jpg">
-													<i class="pbmit-base-icon-plus"></i>
-												</a>
-											</div>
-											<div class="pbminfotech-titlebox">
-												<div class="pbmit-port-cat">
-													<a href="project-style-2.html" rel="tag">Solar</a>
+						<div class="row g-0 portfolio-cards">
+							<div class="col-md-2 port-card1">
+								<article class="pbmit-portfolio-style-1 pbminfotech-overlay-box">
+									<div class="pbminfotech-post-item">
+										<div class="pbmit-featured-wrapper">
+											<img src="images/homepage-1/project/project-new-1.jpg" class="img-fluid" alt="">
+										</div>
+										<div class="pbminfotech-box-content pbminfotech-overlay">
+											<div class="pbminfotech-box-content-inner">
+												<div class="pbminfotech-icon-box pbminfotech-media-link">
+													<a class="pbmit-lightbox" title="So To Deliberately Dender"
+														href="images/homepage-1/project/project-new-1.jpg">
+														<i class="pbmit-base-icon-plus"></i>
+													</a>
 												</div>
-												<h3 class="pbmit-portfolio-title">
-													<a href="portfolio-single.html">So To Deliberately Dender</a>
-												</h3>
+												<div class="pbminfotech-titlebox">
+													<div class="pbmit-port-cat">
+														<a href="project-style-2.html" rel="tag">Solar</a>
+													</div>
+													<h3 class="pbmit-portfolio-title">
+														<a href="portfolio-single.html">So To Deliberately Dender</a>
+													</h3>
+												</div>
 											</div>
 										</div>
 									</div>
-								</div>
-							</article>
-						</div>
-						<div class="col-md-2">
-							<article class="pbmit-portfolio-style-1 pbminfotech-overlay-box">
-								<div class="pbminfotech-post-item">
-									<div class="pbmit-featured-wrapper">
-										<img src="images/homepage-1/project/project-new-2.jpg" class="img-fluid" alt="">
-									</div>
-									<div class="pbminfotech-box-content pbminfotech-overlay">
-										<div class="pbminfotech-box-content-inner">
-											<div class="pbminfotech-icon-box pbminfotech-media-link">
-												<a class="pbmit-lightbox" title="Massive Deployment Of Solar"
-													href="images/homepage-1/project/project-new-2.jpg">
-													<i class="pbmit-base-icon-plus"></i>
-												</a>
-											</div>
-											<div class="pbminfotech-titlebox">
-												<div class="pbmit-port-cat">
-													<a href="project-style-2.html" rel="tag">Solar</a>
+								</article>
+							</div>
+							<div class="col-md-2 port-card2">
+								<article class="pbmit-portfolio-style-1 pbminfotech-overlay-box">
+									<div class="pbminfotech-post-item">
+										<div class="pbmit-featured-wrapper">
+											<img src="images/homepage-1/project/project-new-2.jpg" class="img-fluid" alt="">
+										</div>
+										<div class="pbminfotech-box-content pbminfotech-overlay">
+											<div class="pbminfotech-box-content-inner">
+												<div class="pbminfotech-icon-box pbminfotech-media-link">
+													<a class="pbmit-lightbox" title="Massive Deployment Of Solar"
+														href="images/homepage-1/project/project-new-2.jpg">
+														<i class="pbmit-base-icon-plus"></i>
+													</a>
 												</div>
-												<h3 class="pbmit-portfolio-title">
-													<a href="portfolio-single.html">Massive Deployment Of Solar</a>
-												</h3>
+												<div class="pbminfotech-titlebox">
+													<div class="pbmit-port-cat">
+														<a href="project-style-2.html" rel="tag">Solar</a>
+													</div>
+													<h3 class="pbmit-portfolio-title">
+														<a href="portfolio-single.html">Massive Deployment Of Solar</a>
+													</h3>
+												</div>
 											</div>
 										</div>
 									</div>
-								</div>
-							</article>
-						</div>
-						<div class="col-md-2">
-							<article class="pbmit-portfolio-style-1 pbminfotech-overlay-box">
-								<div class="pbminfotech-post-item">
-									<div class="pbmit-featured-wrapper">
-										<img src="images/homepage-1/project/project-new-3.jpg" class="img-fluid" alt="">
-									</div>
-									<div class="pbminfotech-box-content pbminfotech-overlay">
-										<div class="pbminfotech-box-content-inner">
-											<div class="pbminfotech-icon-box pbminfotech-media-link">
-												<a class="pbmit-lightbox" title="Solar Heaters On Roof Top"
-													href="images/homepage-1/project/project-new-3.jpg">
-													<i class="pbmit-base-icon-plus"></i>
-												</a>
-											</div>
-											<div class="pbminfotech-titlebox">
-												<div class="pbmit-port-cat">
-													<a href="project-style-2.html" rel="tag">Solar</a>
+								</article>
+							</div>
+							<div class="col-md-2 port-card3">
+								<article class="pbmit-portfolio-style-1 pbminfotech-overlay-box">
+									<div class="pbminfotech-post-item">
+										<div class="pbmit-featured-wrapper">
+											<img src="images/homepage-1/project/project-new-5.jpg" class="img-fluid" alt="">
+										</div>
+										<div class="pbminfotech-box-content pbminfotech-overlay">
+											<div class="pbminfotech-box-content-inner">
+												<div class="pbminfotech-icon-box pbminfotech-media-link">
+													<a class="pbmit-lightbox" title="Consectetur adipiscing"
+														href="images/homepage-1/project/project-new-5.jpg">
+														<i class="pbmit-base-icon-plus"></i>
+													</a>
 												</div>
-												<h3 class="pbmit-portfolio-title">
-													<a href="portfolio-single.html">Solar Heaters On Roof Top</a>
-												</h3>
+												<div class="pbminfotech-titlebox">
+													<div class="pbmit-port-cat">
+														<a href="project-style-2.html" rel="tag">Energy</a>
+													</div>
+													<h3 class="pbmit-portfolio-title">
+														<a href="portfolio-single.html">Consectetur adipiscing</a>
+													</h3>
+												</div>
 											</div>
 										</div>
 									</div>
-								</div>
-							</article>
+								</article>
+							</div>
 						</div>
-						<div class="col-md-2">
-							<article class="pbmit-portfolio-style-1 pbminfotech-overlay-box">
-								<div class="pbminfotech-post-item">
-									<div class="pbmit-featured-wrapper">
-										<img src="images/homepage-1/project/project-new-4.jpg" class="img-fluid" alt="">
-									</div>
-									<div class="pbminfotech-box-content pbminfotech-overlay">
-										<div class="pbminfotech-box-content-inner">
-											<div class="pbminfotech-icon-box pbminfotech-media-link">
-												<a class="pbmit-lightbox" title="Swedish Mega Project"
-													href="images/homepage-1/project/project-new-4.jpg">
-													<i class="pbmit-base-icon-plus"></i>
-												</a>
-											</div>
-											<div class="pbminfotech-titlebox">
-												<div class="pbmit-port-cat">
-													<a href="project-style-2.html" rel="tag">Sun</a>
-												</div>
-												<h3 class="pbmit-portfolio-title">
-													<a href="portfolio-single.html">Swedish Mega Project</a>
-												</h3>
-											</div>
-										</div>
-									</div>
-								</div>
-							</article>
-						</div>
-						<div class="col-md-2">
-							<article class="pbmit-portfolio-style-1 pbminfotech-overlay-box">
-								<div class="pbminfotech-post-item">
-									<div class="pbmit-featured-wrapper">
-										<img src="images/homepage-1/project/project-new-5.jpg" class="img-fluid" alt="">
-									</div>
-									<div class="pbminfotech-box-content pbminfotech-overlay">
-										<div class="pbminfotech-box-content-inner">
-											<div class="pbminfotech-icon-box pbminfotech-media-link">
-												<a class="pbmit-lightbox" title="Consectetur adipiscing"
-													href="images/homepage-1/project/project-new-5.jpg">
-													<i class="pbmit-base-icon-plus"></i>
-												</a>
-											</div>
-											<div class="pbminfotech-titlebox">
-												<div class="pbmit-port-cat">
-													<a href="project-style-2.html" rel="tag">Energy</a>
-												</div>
-												<h3 class="pbmit-portfolio-title">
-													<a href="portfolio-single.html">Consectetur adipiscing</a>
-												</h3>
-											</div>
-										</div>
-									</div>
-								</div>
-							</article>
-						</div>
-					</div>
+					
 				</div>
 			</section>
 			<!-- Portfolio End -->
@@ -1104,10 +1057,14 @@
 	<script src="js/circle-progress.js"></script>
 	<!-- Scripts JS -->
 	<script src="js/scripts.js"></script>
+	<!-- javascript  annimation-->
+	<script src="./js/animate.js"></script>
 	<!-- Revolution JS -->
 	<script src="revolution/rslider.js"></script>
 	<script src="revolution/rbtools.min.js"></script>
 	<script src="revolution/rs6.min.js"></script>
+	<!-- AOS -->
+	<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 </body>
 
 <!-- Mirrored from greenly-demo.pbminfotech.com/html-demo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Feb 2023 17:10:56 GMT -->

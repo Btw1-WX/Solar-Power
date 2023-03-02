@@ -307,10 +307,14 @@
     font-size: 12px;
 }
 .testimonial-section-bg-two{
-	background-image: url(../images/homepage-2/bg-05.jpg);
+	background-image: url(../images/test-bg2.png);
 	background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 34em 43em;
 	padding: 100px 0px 90px 0px;
+    border: 0.1px solid rgb(200, 200, 200);
+    box-shadow: 0px 0px 9px 5px rgb(99 99 99 / 40%);
+    max-width: 99em;
+    background-color: white;
 }
 .project-section-two{
 	padding-top: 100px;

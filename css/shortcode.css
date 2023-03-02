@@ -41,12 +41,13 @@ body {
 }
 .pbmit-heading-subheading .pbmit-subtitle {
 	font-family: var(--pbmit-heading-typography-font-family);
-    font-size: 13px;
+    font-size: 21px;
     line-height: 24px;
     letter-spacing: 1px;
     color: var(--pbmit-global-color);
     text-transform: uppercase;
     font-style: normal;
+    padding: 21px 0px;
 }
 .pbmit-heading-subheading .pbmit-title{
 	font-family: var(--pbmit-heading-typography-font-family);
@@ -2785,6 +2786,10 @@ body .pbmit-service-style-3 .btn3-color-globalcolor{
     padding: 80px 41px 50px;
     background: #fff;
     margin-top: 30px;
+    border: 2px solid rgb(222, 222, 222,1);
+    box-shadow:  0px 5px 0px rgb(226 226 226);
+    border-top: none;
+    border-bottom: none;
 }
 .pbmit-testimonial-style-1 .pbminfotech-box-img {
     position: absolute;
@@ -5004,7 +5009,7 @@ body .pbmit-service-style-3 .btn3-color-globalcolor{
 /*----------------------------------------*/
 .list-group-borderless .list-group-item{
 	border: none;
-    color: #888888;
+    color: rgb(30, 30, 30);
     padding: 0;
     padding-bottom: calc(15px/2);
     background-color: transparent!important;

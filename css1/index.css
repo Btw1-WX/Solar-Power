@@ -1,26 +1,12 @@
-.aboutus .bg-img {
-    border: 2px solid red;
-}
-
-.aboutus::before {
-    content: ' ';
-    display: inline;
-
-    background-size: cover;
-    background-image: url(../images/About-US-bg-01.png);
-    background-size: 117em 50em;
-    height: 49em;
-    background-repeat: no-repeat;
-}
-
+/* about us */
 .aboutus {
     position: relative;
-    /* height: 49em; */
     position: relative;
     top: 0;
     margin: 28px 0px;
-
-    /* opacity: 0.4; */
+    background-image: url(../images/output-onlinepngtools.png);
+    background-size: 124em 54em;
+    background-repeat: no-repeat;
 }
 
 .head {
@@ -34,37 +20,49 @@
 .about-head {
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    font-weight: bold;
+    font-weight: 250;
     color: var(--pbmit-global-color);
     padding: 10px 0px 22px 0px;
     z-index: 10;
-    width: 58em;
-    font-size: 20px;
+    width: 47em;
+    font-size: 23.5px;
     border: 1px solid rgb(177, 177, 177);
     border-left: white;
     border-right: white;
-    padding: 9px 0px;
+    padding: 21px 0px;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 0px 0px 9px 3px rgb(219 219 219 / 70%);
+    line-height: 24px;
+    letter-spacing: 1px;
+    max-width: -webkit-fill-available;
+
 }
 
 .about-heading {
     text-align: center !important;
-    margin: 1% 0%;
+    margin: 2% 0%;
 }
 
 .about-heading p {
     margin-top: 2%;
-    /* border: 2px solid red; */
-    max-width: 83em;
+    font-family: var(--pbmit-body-typography-font-family);
+    font-weight: var(--pbmit-body-typography-variant);
+    text-transform: none;
+    font-style: normal;
+    font-size: 23px;
+    color: #484848;
+    max-width: 62em;
+    line-height: 38px;
+
 }
 
 .aboutus img {
-    max-height: 109px;
+    max-height: 10em;
     /* border: 1px solid red; */
 }
-.details li{
- border: 2px solid red;
+
+.details li {
+    border: 2px solid red;
 }
 
 .flex {
@@ -82,6 +80,7 @@
 
 }
 
+
 /* our services */
 .pbmit-subtitle {
     font-size: 30px;
@@ -95,14 +94,17 @@
     box-shadow: 0px 0px 22px 4px rgb(219 219 219 / 70%);
 
 }
-.pos{
+
+.pos {
     margin-bottom: 19px;
 }
-.number-speak{
-    font-size: 18px!important;
+
+.number-speak {
+    font-size: 18px !important;
     box-shadow: 0px 0px 22px 4px rgb(219 219 219 / 70%);
 }
-.flex-cont{
+
+.flex-cont {
     display: flex;
     /* align-content: center; */
     justify-content: center;
@@ -110,21 +112,26 @@
     align-items: center;
 
 }
-.ourproject{
-    font-size: 22px!important;
-    width: 51em!important;
+
+.ourproject {
+    font-size: 22px !important;
+    width: 51em !important;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 0px 0px 22px 4px rgb(219 219 219 / 70%);
+    max-width: -webkit-fill-available;
 }
-.blogs-news{
-    font-size: 22px!important;
+
+.blogs-news {
+    font-size: 22px !important;
     box-shadow: 0px 0px 22px 4px rgb(219 219 219 / 70%);
 }
 
+
+
 /* counter */
-.bulb-img{
+.bulb-img {
     /* border: 2px solid red; */
-    margin-top:0px ;
+    margin-top: 0px;
     height: 35em;
     display: flex;
     align-items: center;
@@ -132,9 +139,9 @@
     justify-content: center;
     align-content: center;
     margin: -36px 7px 2px 64px
-   
 }
-.bulb-img .header h4{
+
+.bulb-img .header h4 {
     color: var(--pbmit-global-color);
     /* border: 1px solid red; */
     text-align: center;
@@ -144,10 +151,12 @@
     margin-bottom: 16%;
 
 }
-.line{
+
+.line {
     display: inline-flex;
 }
-.line::before{
+
+.line::before {
     content: ' ';
     height: 100%;
     width: 2px;
@@ -155,7 +164,54 @@
     opacity: 0.2;
     box-shadow: 0px 0px 21px 7px rgb(151, 151, 151)
 }
-.counter-text{
+
+.counter-text {
     /* border: 1px solid black; */
-    box-shadow: 2px 3px 4px rgb(134, 187, 70,0.5);
+    box-shadow: 2px 3px 4px rgb(134, 187, 70, 0.5);
 }
+
+
+/* testimonials */
+.test-color-bg {
+    background-color: var(--pbmit-global-color);
+    box-shadow: 10px 51px 0px 0px var(--pbmit-global-color);
+}
+
+
+/* portfolio */
+.portfolio-cards {
+    
+    border: 2px solid red;
+    display: grid;
+
+}
+.port-card1{
+    /* border:2px solid red; */
+    position: relative;
+    min-width: fit-content;
+    left: 60px;
+}
+.port-card1 article{
+    /* border:2px solid red; */
+    width: 30em;
+} 
+.port-card2{
+    /* border:2px solid red; */
+    position: relative;
+    top: 2%;
+    left: 63%;
+}
+.port-card2 article{
+    /* border:2px solid red; */
+    width: 30em;
+} 
+.port-card3{
+    /* border:2px solid red; */
+    position: relative;
+    top: 8%;
+    left: 20%;
+}
+.port-card3 article{
+    /* border:2px solid red; */
+    width: 30em;
+} 

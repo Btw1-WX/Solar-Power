@@ -15,7 +15,7 @@ function revealLeft() {
       }
     }
   }
-  
+
   window.addEventListener("scroll", revealLeft);
   
   //fadeRight
@@ -114,3 +114,24 @@ function revealLeft() {
   
   window.addEventListener("scroll", revealbounceRight);
   
+  // aos library
+  AOS.init(); 
+
+  // bounce
+  function revealbounce() {
+    var reveals = document.querySelectorAll(".bounce");
+  
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 50;
+  
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("reveal-bounce");
+      } else {
+        reveals[i].classList.remove("reveal-bounce");
+      }
+    }
+  }
+  
+  window.addEventListener("scroll", revealbounce);
