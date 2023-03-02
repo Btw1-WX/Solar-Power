@@ -22,6 +22,8 @@
 .ml-auto, .mx-auto {
     margin-left: auto!important;
 }
+
+@import url('animate.css');
 /** Homepage 01 **/
 .our-team-section .pbmit-team-style-2 {
     margin-bottom: 30px;
@@ -2005,11 +2007,16 @@ span.pbmit-meta-title {
     position: relative;
 }
 .contact-section{
-	border-radius: 2px;
+	border-radius: 12px;
 	margin-left: 30px;
 	padding: 70px 40px 50px 40px;
 	color: rgba(255, 255, 255, 0.8);
 	background-color: var(--pbmit-global-color);
+    transition: box-shadow 0.5s;
+}
+.contact-section:hover{
+        box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+          0.3em 0.3em 1em rgba(0, 0, 0, 0.3);      
 }
 .contact-section .contact-heading-title {
     font-family: "Asap", Sans-serif;
@@ -2227,4 +2234,139 @@ input:focus, .form-control:focus {
 }
 button.pbmit-btn.pbmit-btn- {
     display: none;
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500|PT+Sans+Narrow:400,700|Play:400,700|Ubuntu+Condensed&display=swap&subset=cyrillic');
+
+
+
+
+
+
+
+/* project new */
+.container5 {
+display: flex;
+flex-direction: column;
+height: 100%;
+width: 100%;
+min-width: 480px;
+padding: 40px 40px;
+}
+
+.breadcrumb5 {
+display: flex;
+border-radius: 10px;
+margin: auto;
+text-align: center;
+top: 50%;
+width: 100%;
+height: 40px;
+transform: translateY(-50%);
+z-index: 1;
+justify-content: center;
+}
+
+
+.breadcrumb__item {
+height: 100%;
+background-color: white;
+color: #0b0a0a;
+font-family: 'Oswald', sans-serif;
+border-radius: 7px;
+letter-spacing: 1px;
+transition: all 0.3s ease;
+text-transform: uppercase;
+position: relative;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+font-size: 16px;
+transform: skew(-21deg);
+box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+margin: 5px;
+padding: 0 40px;
+cursor: pointer;
+}
+
+
+.breadcrumb__item:hover {
+background: #86BB46;
+color: #0a0a0a;
+}
+
+
+.breadcrumb__inner {
+display: flex;
+flex-direction: column;
+margin: auto;
+z-index: 2;
+transform: skew(21deg);  
+}
+
+.breadcrumb__title {
+font-size: 16px;
+text-overflow: ellipsis;  
+overflow: hidden;
+white-space: nowrap;  
+}
+
+
+@media all and (max-width: 1000px) {
+.breadcrumb5 {
+height: 35px;
+}
+
+.breadcrumb__title{
+font-size: 11px;
+}
+.breadcrumb__item {
+padding: 0 30px;
+}
+}
+
+@media all and (max-width: 710px) {
+.breadcrumb5 {
+height: 30px;
+}
+.breadcrumb__item {
+padding: 0 20px;
+}
+
+}
+
+
+/* Animation class */
+
+/* //animation class */
+.reveal-bounceInLeft{
+    animation: bounceInLeft .8s linear 1;
+}
+
+.reveal-bounceInRight{
+    animation: bounceInRight .8s linear 1;
+}
+
+.reveal-fadeLeft{
+    animation:  fadeInLeft .8s linear  1  ;
+    
+}
+
+.reveal-fadeRight{
+    animation:  fadeInRight .8s linear  1  ;
+    
+}
+
+.reveal-fadeUp{
+    animation:  fadeInUp .8s linear  1  ;
+    
+}
+
+.reveal-fadeDown{
+    animation:  fadeInDown .8s linear  ;
+    
 }
