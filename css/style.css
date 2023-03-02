@@ -1172,6 +1172,15 @@ div#choose-lottie {
     margin: 0 0 30px;
 }
 /** 04 - Project Detail **/
+
+
+
+
+.site-header-menu .site-title img{
+    width: 85px !important;
+    height: 120px !important;
+} 
+
 .Project-Style-1 .pbmit-portfolio-style-1{
 	margin-bottom: 30px;
 }
@@ -2255,7 +2264,7 @@ flex-direction: column;
 height: 100%;
 width: 100%;
 min-width: 480px;
-padding: 40px 40px;
+padding: 100px 40px;
 }
 
 .breadcrumb5 {
