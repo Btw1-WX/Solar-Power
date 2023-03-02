@@ -22,6 +22,8 @@
 .ml-auto, .mx-auto {
     margin-left: auto!important;
 }
+
+@import url('animate.css');
 /** Homepage 01 **/
 .our-team-section .pbmit-team-style-2 {
     margin-bottom: 30px;
@@ -2338,5 +2340,33 @@ padding: 0 20px;
 }
 
 
+/* Animation class */
 
+/* //animation class */
+.reveal-bounceInLeft{
+    animation: bounceInLeft .8s linear 1;
+}
 
+.reveal-bounceInRight{
+    animation: bounceInRight .8s linear 1;
+}
+
+.reveal-fadeLeft{
+    animation:  fadeInLeft .8s linear  1  ;
+    
+}
+
+.reveal-fadeRight{
+    animation:  fadeInRight .8s linear  1  ;
+    
+}
+
+.reveal-fadeUp{
+    animation:  fadeInUp .8s linear  1  ;
+    
+}
+
+.reveal-fadeDown{
+    animation:  fadeInDown .8s linear  ;
+    
+}
