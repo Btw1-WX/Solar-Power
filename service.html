@@ -1,7 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="en">
 
-
 <!-- Mirrored from greenly-demo.pbminfotech.com/html-demo/service.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Feb 2023 17:18:03 GMT -->
 
 <head>
@@ -14,8 +13,7 @@
 	<!-- Favicon -->
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
-	<!-- CSS
-        ============================================ -->
+	<!-- CSS ============================================ -->
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -39,16 +37,16 @@
 	<link rel="stylesheet" href="css/style.css">
 	<!-- Responsive CSS -->
 	<link rel="stylesheet" href="css/responsive.css">
+
+	<link rel="stylesheet" href="./aos.css">
 </head>
 
 <body>
 
 	<!-- Page Wrapper -->
 	<div class="page-wrapper">
-
-		
 		<!-- Title Bar -->
-		<div class="pbmit-title-bar-wrapper">
+		<div class="pbmit-title-bar-wrapper" data-aos="zoom-in" >
 			<!-- Header Main Area -->
 		<header class="site-header header-style-1">
 			<div class="pre-header">
@@ -178,7 +176,7 @@
 			<section class="section-lg service-section">
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-12 col-md-4 pbmit-service-ele">
+						<div class="col-sm-12 col-md-4 pbmit-service-ele" data-aos="flip-left" data-aos-duration="1500">
 							<article class="pbmit-service-style-2">
 								<div class="pbminfotech-post-item">
 									<div class="pbmit-featured-wrapper">
@@ -207,7 +205,8 @@
 								</div>
 							</article>
 						</div>
-						<div class="col-sm-12 col-md-4 pbmit-service-ele">
+						<div class="col-sm-12 col-md-4 pbmit-service-ele" data-aos="flip-down" data-aos-duration="1500"
+						>
 							<article class="pbmit-service-style-2">
 								<div class="pbminfotech-post-item">
 									<div class="pbmit-featured-wrapper">
@@ -236,7 +235,7 @@
 								</div>
 							</article>
 						</div>
-						<div class="col-sm-12 col-md-4 pbmit-service-ele">
+						<div class="col-sm-12 col-md-4 pbmit-service-ele" data-aos="flip-right" data-aos-duration="1500">
 							<article class="pbmit-service-style-2">
 								<div class="pbminfotech-post-item">
 									<div class="pbmit-featured-wrapper">
@@ -266,8 +265,6 @@
 							</article>
 						</div>
 					</div>
-					
-					
 				</div>
 			</section>
 			<!-- service End -->
@@ -441,8 +438,12 @@
 	<!-- Scripts JS -->
 	<script src="js/scripts.js"></script>
 
-</body>
+	<script src="./aos.js"></script>
 
+</body>
+<script>
+	AOS.init();
+</script>
 <!-- Mirrored from greenly-demo.pbminfotech.com/html-demo/service.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Feb 2023 17:18:19 GMT -->
 
 </html>
