@@ -36,6 +36,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="../css/responsive.css">
+	<link rel="stylesheet" href="../aos.css">
 </head>
 
 <body>
@@ -45,7 +46,7 @@
       
 
         <!-- Title Bar -->
-        <div class="pbmit-title-bar-wrapper">
+        <div class="pbmit-title-bar-wrapper" data-aos="zoom-in" >
              <!-- Header Main Area -->
 		<header class="site-header header-style-1">
 			<div class="pre-header">
@@ -174,7 +175,7 @@
             <section class="section-lgx">
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-4 service-left-col order-2 order-lg-1">
+						<div class="col-lg-4 service-left-col order-2 order-lg-1" data-aos="flip-left" data-aos-duration="1500">
 							<aside class="service-sidebar">
 								<aside class="widget post-list">
 									<h2 class="widget-title">Services</h2>
@@ -221,7 +222,7 @@
 								</aside>
 							</aside>
 						</div>
-						<div class="col-lg-8 service-right-col order-1">
+						<div class="col-lg-8 service-right-col order-1" data-aos="flip-right" data-aos-duration="1500">
 							<img src="../images/homepage-1/service/service-img-01.jpg" class="w-100" alt="">
 							<div class="service-details">
 								<h2 class="pbmit-title">Engineering, Procurement, and Construction</h2>
@@ -229,7 +230,7 @@
 								<h4 class="pbmit-title"> Services we provide</h4>
 								<div class="service-page-infobox">
 									<div class="row">
-										<div class="col-md-6">
+										<div class="col-md-6" data-aos="fade-left" data-aos-duration="1500">
 											<div class="pbmit-ihbox pbmit-ihbox-style-1">
 												<div class="pbmit-ihbox-icon">
 													<div class="pbmit-ihbox-icon-wrapper">
@@ -247,7 +248,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-md-6">
+										<div class="col-md-6" data-aos="fade-right" data-aos-duration="1500">
 											<div class="pbmit-ihbox pbmit-ihbox-style-1">
 												<div class="pbmit-ihbox-icon">
 													<div class="pbmit-ihbox-icon-wrapper">
@@ -267,7 +268,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="accordion" id="accordionExample">
+								<div class="accordion" id="accordionExample" data-aos="fade-down" data-aos-duration="1500">
 									<div class="accordion-item active">
 										<h2 class="accordion-header" id="headingOne">
 											<button class="accordion-button collapsed" type="button"
@@ -320,7 +321,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="service-offer">
+								<div class="service-offer" data-aos="fade-up" data-aos-duration="1500">
 									<div class="row">
 										<div class="col-md-6">
 											<img src="../images/homepage-1/blog/blog-03.jpg" class="img-fluid" alt="">
@@ -524,6 +525,10 @@
     <script src="../js/circle-progress.js"></script>
     <!-- Scripts JS -->
     <script src="../js/scripts.js"></script>
+	<script src="../aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
 
 </body>
 
