@@ -179,39 +179,49 @@
 
 
 /* portfolio */
-.portfolio-cards {
-    
+.portfolio-cards {  
     border: 2px solid red;
     display: grid;
-
+    align-items: center;
+    grid-template-rows: 1.3fr 1.3fr ;
+    position: relative;
+    /* background-image: url(../images/portfolio-bg-img.png);
+    background-repeat: no-repeat; */
+}
+.portfolio-cards::before{
+    position: absolute;
+    content: "";
+    background-image: url(../images/portfolio-bg-img.png);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    inset: 0;
+    opacity: 0.5;
 }
 .port-card1{
-    /* border:2px solid red; */
-    position: relative;
-    min-width: fit-content;
-    left: 60px;
+     border:2px solid red; 
+     width: fit-content;
+     opacity: 1;
+     /* z-index: -1; */
+    
 }
 .port-card1 article{
-    /* border:2px solid red; */
-    width: 30em;
+     border:2px solid red; 
+     width: 12em;
 } 
 .port-card2{
-    /* border:2px solid red; */
-    position: relative;
-    top: 2%;
-    left: 63%;
+    border:2px solid red;
+    width: fit-content;
 }
 .port-card2 article{
-    /* border:2px solid red; */
-    width: 30em;
+    border:2px solid red;
+    width: 12em;
 } 
 .port-card3{
-    /* border:2px solid red; */
-    position: relative;
-    top: 8%;
-    left: 20%;
+    border:2px solid red;
+    width: fit-content;
+
 }
 .port-card3 article{
-    /* border:2px solid red; */
-    width: 30em;
+    border:2px solid red;width: 12em;
+   
 } 
