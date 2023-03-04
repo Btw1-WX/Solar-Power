@@ -39,6 +39,8 @@
     <link rel="stylesheet" href="../css/style.css">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="../css/responsive.css">
+
+    <link rel="stylesheet" href="./aos.css">
 </head>
 
 <body>
@@ -48,7 +50,7 @@
 
       
         <!-- Title Bar -->
-        <div class="pbmit-title-bar-wrapper">
+        <div class="pbmit-title-bar-wrapper" data-aos="zoom-in">
               <!-- Header Main Area -->
 		<header class="site-header header-style-1">
 			<div class="pre-header">
@@ -193,7 +195,7 @@
                                                 <div class="pbmit-featured-wrapper">
                                                     <a href="../blog-single.html">
                                                         <img src="../images/blogs-images/solar panel 13.jpeg "
-                                                            class="img-fluid w-100" alt="">
+                                                            class="img-fluid w-100" data-aos="zoom-in"alt="">
                                                     </a>
                                                 </div>
                                             </div>
@@ -202,7 +204,7 @@
                                                     <span class="pbmit-meta pbmit-meta-cat">
                                                         <a href="blog-classic.html" rel="category tag">Electricity</a>
                                                     </span>
-                                                    <h3 class="pbmit-post-title">
+                                                    <h3 class="pbmit-post-title"  data-aos="slide-right">
                                                         <a href="blog-choice.html">Article 2 How Solar Panels Work</a>
                                                     </h3>
                                                     <div class="pbmit-blog-meta pbmit-blog-meta-top">
@@ -227,13 +229,13 @@
                                                     this article, we will discuss the science behind solar panels and
                                                     how they generate electricity.</p>
                                                 <p><img src="../images/blogs-images/solar panel 14.jpeg"
-                                                        class="img-fluid w-100" alt=""></p>
-                                                <h5>What are Solar Panels?</h5>
+                                                        class="img-fluid w-100" data-aos="zoom-in" alt=""></p>
+                                                <h5  data-aos="slide-right">What are Solar Panels?</h5>
                                                 <p>Solar panels, also known as photovoltaic panels, are devices that
                                                     convert sunlight into electricity. They are made up of several
                                                     photovoltaic cells, which are made of silicon, a semiconductor
                                                     material that can convert sunlight into electricity.</p>
-                                                <h5>How Do Solar Panels Work?</h5>
+                                                <h5  data-aos="slide-right">How Do Solar Panels Work?</h5>
                                                 <p>When sunlight hits a solar panel, it is absorbed by the photovoltaic
                                                     cells. The photons (light particles) from the sunlight then knock
                                                     electrons (negative charged particles) off the atoms in the silicon
@@ -247,7 +249,7 @@
                                                     inverter. The AC electricity can be used to power appliances,
                                                     lights, and other electronic devices.</p>
 
-                                                <h5>Components of a Solar Panel System
+                                                <h5  data-aos="slide-right">Components of a Solar Panel System
                                                 </h5>
                                                 <p>A solar panel system typically consists of four main components:
                                                     solar panels, an inverter, a battery (optional), and a charge
@@ -274,13 +276,13 @@
                                                     of charge going into the battery and prevents overcharging, which
                                                     can damage the battery.
                                                 </p>
-                                                <h5>Benefits of Solar Panels</h5>
+                                                <h5  data-aos="slide-right">Benefits of Solar Panels</h5>
                                                 <p>Solar panels have many benefits. They are a clean and renewable
                                                     source of energy, which reduces carbon emissions and helps to combat
                                                     climate change. They can also reduce electricity bills and provide
                                                     energy independence. Solar panels can be installed almost anywhere,
                                                     from rooftops to rural areas without access to the grid.</p>
-                                                <h5>Conclusion</h5>
+                                                <h5  data-aos="slide-right">Conclusion</h5>
                                                 <p>Solar panels are a vital source of renewable energy that is growing
                                                     in popularity. They work by converting sunlight into electricity
                                                     through the photovoltaic effect. Solar panel systems consist of
@@ -537,8 +539,12 @@
     <!-- Scripts JS -->
     <script src="../js/scripts.js"></script>
 
-</body>
+    <script src="./aos.js"></script>
 
+</body>
+<script>
+	AOS.init();
+</script>
 <!-- Mirrored from greenly-demo.pbminfotech.com/html-demo/blog-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Feb 2023 17:18:51 GMT -->
 
 </html>

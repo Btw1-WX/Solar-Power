@@ -39,6 +39,8 @@
 	<link rel="stylesheet" href="css/style.css">
 	<!-- Responsive CSS -->
 	<link rel="stylesheet" href="css/responsive.css">
+
+	<link rel="stylesheet" href="./aos.css">
 </head>
 
 <body>
@@ -47,7 +49,7 @@
 	<div class="page-wrapper">
 
 		<!-- Header Main Area -->
-		<header class="site-header header-style-1">
+		<header class="site-header header-style-1" data-aos="zoom-in">
 			<div class="pre-header">
 				<div class="container">
 					<div class="d-flex justify-content-between align-items-center">
@@ -151,16 +153,16 @@
 		<div class="page-content">
 
 			<!-- Contact -->
-			<section>
-				<iframe
+			<section data-aos="zoom-out">
+				<iframe 
 					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3627.6080056663573!2d73.68867761492157!3d24.60272098417607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967e50c962ed84d%3A0xb02f0747ab72695!2sNovergy%20Energy%20Solutions%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1677735197606!5m2!1sen!2sin"
 					width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-					referrerpolicy="no-referrer-when-downgrade"></iframe>
+					referrerpolicy="no-referrer-when-downgrade" ></iframe>
 			</section>
-			<section class="contact-us-section">
+			<section class="contact-us-section" >
 				<div class="container">
 					<div class="row">
-						<div class="col-xl-5 col-lg-12">
+						<div class="col-xl-5 col-lg-12" data-aos="slide-up">
 							<div class="contact-section">
 								<h2 class="contact-heading-title">Start a new<br> project?</h2>
 								<div>
@@ -180,7 +182,7 @@
 								</ul>
 							</div>
 						</div>
-						<div class="col-xl-7 col-lg-12">
+						<div class="col-xl-7 col-lg-12" data-aos="slide-left">
 							<div class="contact-form">
 								<h2 class="heading-title">Send us a message</h2>
 								<form>
@@ -380,9 +382,13 @@
 	<!-- Scripts JS -->
 	<script src="js/scripts.js"></script>
 
+	<script src="./aos.js"></script>
+
 </body>
 
-
+<script>
+	AOS.init();
+</script>
 <!-- Mirrored from greenly-demo.pbminfotech.com/html-demo/contact-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Feb 2023 17:18:51 GMT -->
 
 </html>
