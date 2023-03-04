@@ -39,6 +39,8 @@
 	<link rel="stylesheet" href="css/style.css">
 	<!-- Responsive CSS -->
 	<link rel="stylesheet" href="css/responsive.css">
+
+	<link rel="stylesheet" href="./aos.css">
 </head>
 
 <body>
@@ -50,7 +52,7 @@
 		<div class="pbmit-title-bar-wrapper">
 			
 			<!-- Header Main Area -->
-			<header class="site-header header-style-1">
+			<header class="site-header header-style-1" >
 				<div class="pre-header">
 					<div class="container">
 						<div class="d-flex justify-content-between align-items-center">
@@ -183,7 +185,7 @@
 				<div class="container">
 					<div class="pbmit-portfolio-single">
 						<div class="row">
-							<div class="col-md-5 col-lg-5">
+							<div class="col-md-5 col-lg-5" data-aos="fade-right">
 								<h4>About the project</h4>
 								<div class="pbmit-portfolio-lines-wrapper">
 									<ul class="pbmit-portfolio-lines-ul">
@@ -206,7 +208,7 @@
 									</ul>
 								</div>
 							</div>
-							<div class="col-md-7 col-lg-7">
+							<div class="col-md-7 col-lg-7" data-aos="fade-left">
 								<div class="pbmit-short-description">
 									<label class="pbmit-details-label">Project Information</label>
 									With today’s technology, it’s easier than ever for photographers to create images
@@ -222,14 +224,14 @@
 						<div class="row">
 							<div class="col-md-12 col-lg-12">
 								<div class="pbmit-featured-wrapper">
-									<img src="images/homepage-1/project/project-1b.jpg" class="img-fluid" alt="">
+									<img src="images/homepage-1/project/project-1b.jpg" class="img-fluid"  data-aos="fade-down" alt="">
 								</div>
 							</div>
 						</div>
 						<div class="pbmit-entry-content">
 							<div class="row">
 								<div class="col-md-4">
-									<h4 class="heading-title">Benefits of Project</h4>
+									<h4 class="heading-title" data-aos="slide-right">Benefits of Project</h4>
 								</div>
 								<div class="col-md-8">
 									<p>Large solar panels are used to absorb the powerful solar rays emitted from the
@@ -255,7 +257,7 @@
 							<div class="pbmit-entry-content-bottom">
 								<div class="row">
 									<div class="col-md-4">
-										<h4 class="heading-title">Technologies What We Used</h4>
+										<h4 class="heading-title" data-aos="slide-right">Technologies What We Used</h4>
 									</div>
 									<div class="col-md-8">
 										<p>Our inboxes are overloaded with promotional emails and newsletters, and we
@@ -474,8 +476,12 @@
 	<!-- Scripts JS -->
 	<script src="js/scripts.js"></script>
 
-</body>
+	<script src="./aos.js"></script>
 
+</body>
+<script>
+	AOS.init();
+</script>
 <!-- Mirrored from greenly-demo.pbminfotech.com/html-demo/portfolio-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Feb 2023 17:18:39 GMT -->
 
 </html>

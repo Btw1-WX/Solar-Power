@@ -40,6 +40,8 @@
     <link rel="stylesheet" href="../css/style.css">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="../css/responsive.css">
+
+    <link rel="stylesheet" href="./aos.css">
 </head>
 
 <body>
@@ -48,7 +50,7 @@
     <div class="page-wrapper">
 
         <!-- Title Bar -->
-        <div class="pbmit-title-bar-wrapper">
+        <div class="pbmit-title-bar-wrapper"  >
         <!-- Header Main Area -->
 		<header class="site-header header-style-1">
 			<div class="pre-header">
@@ -193,7 +195,7 @@
                                                 <div class="pbmit-featured-wrapper">
                                                     <a href="../blog-single.html">
                                                         <img src="../images/blogs-images/solar panel 11.jpeg"
-                                                            class="img-fluid w-100" alt="">
+                                                            class="img-fluid w-100" data-aos="zoom-in" alt="">
                                                     </a>
                                                 </div>
                                             </div>
@@ -202,7 +204,7 @@
                                                     <span class="pbmit-meta pbmit-meta-cat">
                                                         <a href="../blog-classic.html" rel="category tag">Electricity</a>
                                                     </span>
-                                                    <h3 class="pbmit-post-title">
+                                                    <h3 class="pbmit-post-title" data-aos="slide-right">
                                                         <a href="./blog-choice.html">Article 1 Going Solar: Common
                                                             Questions and Concerns Addressed</a>
                                                     </h3>
@@ -228,8 +230,8 @@
                                                     switching to solar power. In this article, we will address some of
                                                     the most common questions and concerns about going solar.</p>
                                                 <p><img src="../images/blogs-images/solar panel 12.png"
-                                                        class="img-fluid w-100" alt=""></p>
-                                                <h5>How much will it cost to install solar panels?</h5>
+                                                        class="img-fluid w-100" data-aos="zoom-in" alt=""></p>
+                                                <h5 data-aos="slide-right">How much will it cost to install solar panels?</h5>
                                                 <p>The cost of installing solar panels depends on several factors, such
                                                     as the size of your home or business, your energy usage, and the
                                                     type of solar panels you choose. However, there are often incentives
@@ -237,31 +239,31 @@
                                                     can significantly reduce the cost of installation. Additionally,
                                                     many solar companies offer financing options, making it easier to
                                                     afford the upfront cost of installation.</p>
-                                                <h5>Will solar panels work in my climate?</h5>
+                                                <h5 data-aos="slide-right">Will solar panels work in my climate?</h5>
                                                 <p>Solar panels can work in most climates, including cloudy and overcast
                                                     weather. However, solar panels are most effective when they receive
                                                     direct sunlight. Therefore, it's important to ensure that your roof
                                                     or property receives adequate sunlight to make the switch to solar
                                                     power worthwhile.</p>
 
-                                                <h5>Will solar panels increase the value of my home?</h5>
+                                                <h5 data-aos="slide-right">Will solar panels increase the value of my home?</h5>
                                                 <p>Yes, solar panels can increase the value of your home. According to a
                                                     study conducted by the Lawrence Berkeley National Laboratory, homes
                                                     with solar panels sold for an average of $15,000 more than homes
                                                     without solar panels.</p>
 
-                                                <h5>How long do solar panels last?</h5>
+                                                <h5 data-aos="slide-right">How long do solar panels last?</h5>
                                                 <p>Solar panels can last up to 25-30 years or even longer with proper
                                                     maintenance. Additionally, most solar companies offer warranties on
                                                     their panels, ensuring that any issues are addressed promptly.</p>
 
-                                                <h5>What happens if there is a power outage?</h5>
+                                                <h5 data-aos="slide-right">What happens if there is a power outage?</h5>
                                                 <p>Most solar systems are designed to automatically shut off in the
                                                     event of a power outage to protect workers who may be repairing the
                                                     grid. However, some solar systems have a battery backup that allows
                                                     homeowners to continue using electricity during a power outage.</p>
 
-                                                <h5>What happens if I move?
+                                                <h5 data-aos="slide-right">What happens if I move?
                                                 </h5>
                                                 <p>If you move, you can either transfer the solar panel system to the
                                                     new owner or sell the system separately. Solar panels can increase
@@ -269,7 +271,7 @@
                                                     buyers.</p>
 
 
-                                                <h5>Will solar panels require maintenance?</h5>
+                                                <h5 data-aos="slide-right">Will solar panels require maintenance?</h5>
                                                 <p>Solar panels require minimal maintenance, such as keeping them clean
                                                     and free of debris. Most solar companies offer maintenance services
                                                     to ensure that your solar panel system is working efficiently.</p>
@@ -527,8 +529,12 @@
     <!-- Scripts JS -->
     <script src="../js/scripts.js"></script>
 
-</body>
+    <script src="./aos.js"></script>
 
+</body>
+<script>
+	AOS.init();
+</script>
 <!-- Mirrored from greenly-demo.pbminfotech.com/html-demo/blog-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Feb 2023 17:18:51 GMT -->
 
 </html>
