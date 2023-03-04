@@ -179,49 +179,174 @@
 
 
 /* portfolio */
-.portfolio-cards {  
-    border: 2px solid red;
+.portfolio-cards {
+    /* border: 2px solid red; */
     display: grid;
     align-items: center;
-    grid-template-rows: 1.3fr 1.3fr ;
+    /* grid-template-rows: 1fr 1fr; */
     position: relative;
     /* background-image: url(../images/portfolio-bg-img.png);
     background-repeat: no-repeat; */
 }
-.portfolio-cards::before{
+.portfolio-cards::before {
     position: absolute;
     content: "";
-    background-image: url(../images/portfolio-bg-img.png);
+    background-image: url(../images/porfolio-bg-img3.jpg);
     background-size: cover;
-    background-repeat:no-repeat ;
+    background-repeat: no-repeat;
     inset: 0;
-    opacity: 0.5;
+    opacity: 0.8;
 }
-.port-card1{
-     border:2px solid red; 
-     width: fit-content;
-     opacity: 1;
-     /* z-index: -1; */
-    
+/* cards and info */
+.portfolio-card1 {
+    margin: 1px 10px;
+    width: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column ;flex-wrap: wrap; align-content: flex-start;
+    opacity: 1;
+    z-index: 1;
 }
-.port-card1 article{
-     border:2px solid red; 
-     width: 12em;
-} 
-.port-card2{
-    border:2px solid red;
-    width: fit-content;
+.portfolio-card2 {
+    margin: 1px 10px;
+    width: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column ;
+    flex-wrap: wrap; 
+    align-content: flex-end;
+    opacity: 1;
+    z-index: 1;
 }
-.port-card2 article{
-    border:2px solid red;
-    width: 12em;
-} 
-.port-card3{
-    border:2px solid red;
-    width: fit-content;
+
+.img-shadow{
+    box-shadow: 3px 3px 6px 2px rgb(71, 71, 71,0.5);
+}
+/* card1 */
+.port-card1 {
+    box-shadow: 3px 2px 5px 1px #818181;
+    width: -webkit-fill-available;
+    opacity: 1;
+    background-color: rgb(0 0 0 / 30%);
+    display: flex;
+    /* z-index: -1;
+    /* justify-content: ; */
+    /* z-index: -1; */
+}
+
+/* card2 */
+.port-card2 {
+    /* border: 2px solid red; */
+    box-shadow: 0px 0px 10px 9px rgb(153, 153, 153);
+    width: -webkit-fill-available;
+    background-color:  rgb(0 0 0 / 30%);
+    display: flex;
+justify-content: space-between
 
 }
-.port-card3 article{
-    border:2px solid red;width: 12em;
-   
-} 
+/* card3 */
+.port-card3 {
+    /* border: 2px solid red; */
+    width: -webkit-fill-available;
+    box-shadow: 5px 5px 8px 3px rgb(153, 153, 153);
+    /* width: fit-content; */
+    background-color: rgb(0 0 0 / 30%);
+    display: flex;
+    opacity: 1;
+
+}
+.port-card2 article ,.port-card3 article,.port-card1 article{
+    /* border: 2px solid red; */
+    width: 25em;
+}
+
+/* information of cards */
+.port-info-flex
+{
+    /* border: 10px solid rgb(139, 27, 143); */
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 16em;
+    margin-top: 34px;
+}
+
+.port-card-info  {
+    /* border: 2px solid rgb(12, 9, 9); */
+    /* margin: auto 14px; */
+    color: rgb(235, 235, 235);
+    background-color: rgb(0 0 0 / 43%);
+    border-radius:4px ;
+}
+.port-card-info  h4{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    border: 1px solid #7e7a7a;
+    border-left: none;
+    /* max-width: 38em; */
+    border-right: none;
+    box-shadow: 0px 0px 3px 0px #86bb46;
+    font-family:   'Trebuchet MS', sans-serif;
+    font-size:30px ;
+}
+.port-card-info .readmore-flex p{
+    background-color: 2px solid red ;
+    opacity: 1;
+    /* text-align: center; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* border: 2px solid red; */
+    max-width: 45em;
+    margin: 9px 51px;
+    font-size: 19px;
+    line-height: 30px;
+    font-weight: 10px;
+}
+
+/* btn */
+.port-btn{
+    max-width: 10em;
+padding:19px;
+text-align:center;
+
+margin-top: 17px;
+}
+button {
+  line-height:1em;
+  letter-spacing:0.06em;
+  font-family: 'Lato', sans-serif;
+  font-weight:normal;
+  font-size:16px;
+  text-decoration:none;
+  color:#fff;
+  background:var(--pbmit-global-color);
+  display:inline-block;
+  /* padding:15px 12px 15px 15px; */
+  transition:background 200ms;
+  border-radius:4px;
+}
+button:hover {
+  background:gray;
+}
+button:after {
+    font-family: 'FontAwesome', sans-serif;
+    font-weight: 300;
+    content: "\f105";
+    margin-left: 4px;
+    color: black;
+    font-size: 22px;
+    vertical-align: -2px;
+    transition: color 200ms;
+}
+
+button:hover:after {
+  color:#020202;
+}
+.readmore-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17px;
+}

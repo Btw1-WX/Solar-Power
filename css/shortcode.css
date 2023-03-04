@@ -1841,8 +1841,8 @@ body .pbmit-service-style-3 .btn3-color-globalcolor{
     overflow: hidden;
 }
 .pbmit-portfolio-style-1 img {
-    width: 100%;
-    height: auto;
+    width: 20em;
+    height: 23em;
     transform: scale(1);
     -moz-transform: scale(1);
     -ms-transform: scale(1);
