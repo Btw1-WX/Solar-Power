@@ -42,7 +42,16 @@
     text-align: center !important;
     margin: 2% 0%;
 }
-
+.about-info-light{
+    /* border: 2px solid red; */
+    /* width: 36em; */
+    color: rgba(48, 48, 48, 0.651)!important;
+    
+}
+.aboutus-info-gap{
+    box-shadow: 0px 0px 0px 0px black;
+    border: 2px solid black;
+}
 .about-heading p {
     margin-top: 2%;
     font-family: var(--pbmit-body-typography-font-family);
@@ -57,12 +66,16 @@
 }
 
 .aboutus img {
-    max-height: 10em;
+    max-height: 101px;
     /* border: 1px solid red; */
+    max-width: 73em;
 }
 
-.details li {
-    border: 2px solid red;
+.details ul .list-group-item {
+    /* border: 2px solid red; */
+    margin: auto;
+    max-width: 14em;
+    text-align: center;
 }
 
 .flex {
@@ -70,6 +83,15 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    /* border: 2px solid red; */
+    width: 74em;
+}
+.respon{
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+    max-width: -webkit-fill-available;
+    /* border: 2px solid red; */
 }
 
 .flex ul {
@@ -79,6 +101,7 @@
     /* flex-wrap: wrap; */
 
 }
+
 
 
 /* our services */
