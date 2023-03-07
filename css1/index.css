@@ -23,7 +23,6 @@
     font-weight: 250;
     color: var(--pbmit-global-color);
     padding: 10px 0px 22px 0px;
-    z-index: 10;
     width: 47em;
     font-size: 23.5px;
     border: 1px solid rgb(177, 177, 177);
@@ -293,6 +292,7 @@ justify-content: space-between
     /* align-items: center; */
     height: 16em;
     margin-top: 34px;
+    height: auto;
 }
 
 .port-card-info  {
@@ -301,6 +301,7 @@ justify-content: space-between
     color: rgb(235, 235, 235);
     background-color: rgb(0 0 0 / 43%);
     border-radius:4px ;
+    margin: 0px 14px;
 }
 .port-card-info  h4{
     text-align: center;
@@ -372,4 +373,38 @@ button:hover:after {
     justify-content: center;
     align-items: center;
     margin-top: 17px;
+}
+@media(max-width:1100px){
+    .port-card-info{
+        width: auto;
+        height:auto;
+    }
+}
+
+@media(max-width:772px){
+
+.port-card1 , .port-card3{
+    display: flex!important;
+    flex-direction: column!important;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    
+}
+.port-card1 article, .port-card3 article{
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+.port-card2{
+    /* border: 2px solid red;
+    display: flex!important; */
+    flex-direction: column-reverse!important;
+    
+}
+.port-card2 article{
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
 }

@@ -500,13 +500,19 @@ body .pbmit-bg-color-white{
      color: var(--pbmit-blackish-color);
 }
 .site-navigations ul li.active > a{
-	color: var(--pbmit-global-color);
+	color: white;
+    text-decoration: underline;
+    text-decoration-color: white
 }
 .site-navigation ul.navigation > li > a:hover{
-     color: var(--pbmit-global-color);
+     color:white;
+     text-decoration: underline;
+     text-decoration-color: white;
 }
 .site-navigation ul.navigation > li > a:hover:after{
-    color: var(--pbmit-global-color);
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white
 }
  .site-navigation ul.navigation a{
      font-family: var(--pbmit-heading-typography-font-family);
