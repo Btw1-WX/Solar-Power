@@ -3432,6 +3432,50 @@ body .pbmit-service-style-3 .btn3-color-globalcolor{
     text-transform: uppercase;
     font-style: normal;
 }
+/* For changing a color when about page is active */
+.navbar-collapse .pbmit-menu-wrap .navigation .about-active{
+    color: rgb(0, 255, 0);
+}
+.navbar-collapse .pbmit-menu-wrap .navigation .service-active{
+    color: rgb(0, 255, 0);
+}
+.navbar-collapse .pbmit-menu-wrap .navigation .project-active{
+    color: rgb(0, 255, 0);
+}
+.navbar-collapse .pbmit-menu-wrap .navigation .blog-active{
+    color: rgb(0, 255, 0);
+}
+.navbar-collapse .pbmit-menu-wrap .navigation .contact-active{
+    color: rgb(0, 255, 0);
+}
+.navbar-collapse .pbmit-menu-wrap .navigation .home-active{
+    color: rgb(0, 255, 0);
+}
+.navbar-collapse .pbmit-menu-wrap .navigation .blogsingle-active{
+    color: rgb(0, 255, 0);
+}
+.navbar-collapse .pbmit-menu-wrap .navigation .blogchoice-active{
+    color: rgb(0, 255, 0);
+}
+.navbar-collapse .pbmit-menu-wrap .navigation .blogdiff-active{
+    color: rgb(0, 255, 0);
+}
+.navbar-collapse .pbmit-menu-wrap .navigation .blogmoney-active{
+    color: rgb(0, 255, 0);
+}
+.navbar-collapse .pbmit-menu-wrap .navigation .blogway-active{
+    color: rgb(0, 255, 0);
+}
+.navbar-collapse .pbmit-menu-wrap .navigation .blogarticle1-active{
+    color: rgb(0, 255, 0);
+}
+.navbar-collapse .pbmit-menu-wrap .navigation .blogarticle2-active{
+    color: rgb(0, 255, 0);
+}
+
+.header-style-1 .navbar-collapse ul li a:hover{
+color: rgb(0, 255, 0);
+}
 .header-style-1 .pbmit-right-side {
     display: flex;
     align-items: center;
@@ -3506,7 +3550,7 @@ body .pbmit-service-style-3 .btn3-color-globalcolor{
     margin-left: 30px;
 }
 .header-style-2.site-header .site-branding img{
-	max-height: 56px;
+	max-height: 94px;
 }
 .header-style-2 .pbmit-header-search-btn{
 	align-items: center;
@@ -3988,8 +4032,8 @@ body .pbmit-service-style-3 .btn3-color-globalcolor{
     margin: 35px 0 40px;
 }
 .pbmit-footerlogo {
-    margin-bottom: -5px;
-    max-height: 60px;
+    /* margin-bottom: -5px; */
+    max-height: 93px;
 }
 .site-footer .widget .pbmit-contact-widget-phone {
     font-size: 24px;

@@ -40,7 +40,8 @@
 	<!-- Responsive CSS -->
 	<link rel="stylesheet" href="../css/responsive.css">
 
-	<link rel="stylesheet" href="./aos.css">
+	
+	<link rel="stylesheet" href="../css/animate.css">
 </head>
 
 <body>
@@ -132,7 +133,7 @@
 												  <li class="">
 													  <a href="../project-style-2.html">Projects</a>	
 												  <li>
-													  <a href="../blog-classic.html">Blogs</a>
+													  <a href="../blog-classic.html" class="blogsingle-active">Blogs</a>
 												  <li><a href="../contact-us.html">Contact Us</a></li>
 											  </ul>
 										  </div>
@@ -194,9 +195,9 @@
 										<div class="blog-classic">
 											<div class="pbmit-featured-img-wrapper">
 												<div class="pbmit-featured-wrapper">
-													<a href="blog-single.html">
-														<img src="../images/blogs-images/solar panel 1.png"
-															class="img-fluid w-100" alt="">
+													<a href="blog-single.html" >
+														<img class="fade-left" src="../images/blogs-images/solar panel 1.png"
+															class="img-fluid w-100" data-aos="zoom-in" alt="">
 													</a>
 												</div>
 											</div>
@@ -205,7 +206,7 @@
 													<span class="pbmit-meta pbmit-meta-cat">
 														<a href="blog-classic.html" rel="category tag">Electricity</a>
 													</span>
-													<h3 class="pbmit-post-title">
+													<h3 class="pbmit-post-title fade-left">
 														<a href="blog-single.html">Why solar energy is a smart investment</a>
 													</h3>
 													<div class="pbmit-blog-meta pbmit-blog-meta-top">
@@ -226,8 +227,8 @@
 											<div class="pbmit-entry-content">
 												<p>In recent years, there has been a significant increase in the use of solar energy around the world. With the rising cost of energy, more and more people are turning to solar power as a smart investment for their homes and businesses. In this blog, we will discuss why solar energy is a smart investment.</p>
 												<p><img src="../images/blogs-images/solar panel 2.jpeg"
-														class="img-fluid w-100" alt=""></p>
-												<h5>Low Cost</h5>
+														class="img-fluid w-100 fade-left" alt=""></p>
+												<h5 data-aos="slide-right">Low Cost</h5>
 												<p>One of the primary reasons why solar energy is a smart investment is
 													that it is low cost. While the initial investment can be
 													significant, the long-term benefits are worth it. The cost of solar
@@ -236,28 +237,28 @@
 													solar panels require minimal maintenance, and the cost of
 													electricity produced by solar panels is significantly lower than
 													traditional electricity sources.</p>
-												<h5>Energy Independence</h5>
+												<h5 data-aos="slide-right">Energy Independence</h5>
 												<p>Solar energy also provides energy independence. By installing solar
 													panels, homeowners and businesses can generate their electricity,
 													reducing their reliance on the electrical grid. This is especially
 													important in areas that are prone to power outages or where
 													electricity is expensive.</p>
 
-												<h5>Increase Property Value</h5>
+												<h5 data-aos="slide-right">Increase Property Value</h5>
 												<p>Solar panels can increase the value of your property. Research has
 													shown that homes with solar panels sell for more than homes without
 													them. This is because solar panels are considered a valuable
 													addition to the home, and they reduce the cost of electricity,
 													making the property more desirable.</p>
 
-												<h5>Environmental Benefits</h5>
+												<h5 data-aos="slide-right">Environmental Benefits</h5>
 												<p>Solar energy is a clean and renewable energy source that produces no
 													emissions. By installing solar panels, homeowners and businesses can
 													reduce their carbon footprint and contribute to a cleaner
 													environment. This is especially important as more and more people
 													become environmentally conscious.</p>
 
-												<h5>Government Incentives</h5>
+												<h5 data-aos="slide-right">Government Incentives</h5>
 												<p>Governments around the world are providing incentives to homeowners
 													and businesses to invest in solar energy. These incentives include
 													tax credits, rebates, and grants. These incentives can significantly
@@ -447,11 +448,11 @@
 										</a>
 										<span class="pbmit-rpw-content">
 											<span class="pbmit-rpw-title">
-												<a href="blog-single.html">Growth of Clean Energy Part of Solution, Not
-													a Problem</a>
+												<a href="Blog-Page/blog-article1.html">Article 1 Going Solar: Common
+                                                            Questions and Concerns Addressed</a>
 											</span>
 											<span class="pbmit-rpw-date">
-												<a href="blog-single.html">June 9, 2019</a>
+												<a href="Blog-Page/blog-article1.html">June 9, 2019</a>
 											</span>
 										</span>
 									</li>
@@ -463,10 +464,10 @@
 										</a>
 										<span class="pbmit-rpw-content">
 											<span class="pbmit-rpw-title">
-												<a href="blog-single.html">Metal Roofing: The Best for Solar Panels</a>
+												<a href="Blog-Page/blog-article2.html">Article 2 How Solar Panels Work</a>
 											</span>
 											<span class="pbmit-rpw-date">
-												<a href="blog-single.html">January 23, 2019</a>
+												<a href="Blog-Page/blog-article2.html">January 23, 2019</a>
 											</span>
 										</span>
 									</li>
@@ -517,8 +518,11 @@
 						<div class="row">
 							<div class="col-md-12">
 								<div class="pbmit-footer-copyright-text-area"> Copyright © 2022
-									<a href="index-2.html">Greenly</a> All Rights Reserved.
-								</div>
+									<a href="https://wictronix.com/"><img style="height:30px;width:100px;background: white;
+										padding: 5px;
+										border-radius: 10px;
+										border-radius: 7px;" class="wictronix-logo" src="../images/Wictronix logo.jpg"></a> All Rights Reserved.
+							    </div>
 							</div>
 						</div>
 					</div>
@@ -567,6 +571,7 @@
 	<script src="../js/circle-progress.js"></script>
 	<!-- Scripts JS -->
 	<script src="../js/scripts.js"></script>
+	<script src="../js/animate.js"></script>
 
 </body>
 
@@ -599,12 +604,8 @@
     <!-- Scripts JS -->
     <script src="../js/scripts.js"></script>
 
-	<script src="./aos.js"></script>
-
 </body>
-<script>
-	AOS.init();
-</script>
+
 <!-- Mirrored from greenly-demo.pbminfotech.com/html-demo/blog-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Feb 2023 17:18:51 GMT -->
 
 </html>

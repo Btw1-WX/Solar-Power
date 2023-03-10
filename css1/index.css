@@ -15,6 +15,7 @@
     justify-content: center;
     align-items: center;
     z-index: 10;
+    padding: 0px 14px;
 }
 
 .about-head {
@@ -302,6 +303,7 @@ justify-content: space-between
     background-color: rgb(0 0 0 / 43%);
     border-radius:4px ;
     margin: 0px 14px;
+    margin-bottom: 31px
 }
 .port-card-info  h4{
     text-align: center;
@@ -407,4 +409,13 @@ button:hover:after {
     justify-content: center;
     width: auto;
 }
+}
+/* wictronix-logo */
+.wictronix-logo{
+    height: 30px;
+    width: 100px;
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+    border-radius: 7px;
 }

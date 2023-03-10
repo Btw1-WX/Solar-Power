@@ -31,7 +31,7 @@ INDEX:
      overflow-x: hidden;
 }
  p {
-     margin: 0 0 25px;
+     margin: 0 0 11px;
 }
  article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
      display: block;
@@ -500,19 +500,20 @@ body .pbmit-bg-color-white{
      color: var(--pbmit-blackish-color);
 }
 .site-navigations ul li.active > a{
-	color: white;
+	color: rgb(0, 208, 24);
     text-decoration: underline;
-    text-decoration-color: white
+    text-decoration-color: rgb(29, 234, 53);
 }
 .site-navigation ul.navigation > li > a:hover{
-     color:white;
+     color: rgb(29, 234, 53);
      text-decoration: underline;
-     text-decoration-color: white;
+     text-decoration-color:  rgb(29, 234, 53);
+    
 }
 .site-navigation ul.navigation > li > a:hover:after{
-    color: white;
+    color:  rgb(29, 234, 53);
     text-decoration: underline;
-    text-decoration-color: white
+    text-decoration-color:  rgb(29, 234, 53);
 }
  .site-navigation ul.navigation a{
      font-family: var(--pbmit-heading-typography-font-family);
