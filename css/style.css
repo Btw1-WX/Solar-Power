@@ -22,6 +22,9 @@
 .ml-auto, .mx-auto {
     margin-left: auto!important;
 }
+.page-wrapper{
+    overflow-x: hidden !important;
+}
 
 @import url('animate.css');
 /** Homepage 01 **/
@@ -2270,7 +2273,14 @@ width: 100%;
 min-width: 480px;
 padding: 100px 40px;
 }
-
+@media(max-width:500px){
+    .container5{
+        min-width: initial;
+    }
+    .breadcrumb5{
+        flex-wrap: wrap;
+    }
+}
 .breadcrumb5 {
 display: flex;
 border-radius: 10px;

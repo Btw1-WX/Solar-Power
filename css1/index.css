@@ -42,6 +42,12 @@
     text-align: center !important;
     margin: 2% 0%;
 }
+@media(max-width:500px){
+    .about-heading {
+    text-align: left !important;
+    /* margin: 2% 0%; */
+}
+}
 .about-info-light{
     /* border: 2px solid red; */
     /* width: 36em; */
@@ -353,12 +359,12 @@ button {
   border-radius:4px;
 }
 button:hover {
-  background:gray;
+  /* background:gray; */
 }
 button:after {
     font-family: 'FontAwesome', sans-serif;
     font-weight: 300;
-    content: "\f105";
+    /* content: "\f105"; */
     margin-left: 4px;
     color: black;
     font-size: 22px;
