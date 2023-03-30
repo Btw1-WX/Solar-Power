@@ -1197,7 +1197,7 @@ body .pbmit-ihbox-style-1 .vc_btn3-color-globalcolor.vc_general.vc_btn3:after,
     top: 0;
     width: 60px;
     height: 60px;
-    background-image: url(../images/homepage-6/fid-img.png);
+    background-image: url(../images/homepage-6/fid-img.webp);
     background-position: top right;
     background-repeat: no-repeat;
 }
@@ -4190,7 +4190,7 @@ color: rgb(0, 255, 0);
     left: 0;
     height: 204px;
     width: 100%;
-    background-image: url(../images/homepage-6/pattern-bg-01.png);
+    background-image: url(../images/homepage-6/pattern-bg-01.webp);
     z-index: 1;
     display: block!important;
     background-repeat: no-repeat;
@@ -4468,7 +4468,7 @@ color: rgb(0, 255, 0);
 }
 .pbmit-title-bar-wrapper {
     background-color: transparent;
-    background-image: url(../images/title-bg.jpg);
+    background-image: url(../images/title-bg.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

@@ -4,7 +4,7 @@
     position: relative;
     top: 0;
     margin: 28px 0px;
-    background-image: url(../images/output-onlinepngtools.png);
+    background-image: url(../images/output-onlinepngtools.webp);
     background-size: 124em 54em;
     background-repeat: no-repeat;
 }
@@ -209,13 +209,13 @@
     align-items: center;
     /* grid-template-rows: 1fr 1fr; */
     position: relative;
-    /* background-image: url(../images/portfolio-bg-img.png);
+    /* background-image: url(../images/portfolio-bg-img.webp);
     background-repeat: no-repeat; */
 }
 .portfolio-cards::before {
     position: absolute;
     content: "";
-    background-image: url(../images/porfolio-bg-img3.jpg);
+    background-image: url(../images/porfolio-bg-img3.webp);
     background-size: cover;
     background-repeat: no-repeat;
     inset: 0;
