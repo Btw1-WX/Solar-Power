@@ -2429,3 +2429,10 @@ padding: 0 20px;
     border-radius: 50%;
   }
  
+
+  .active-page{
+    color: rgb(0, 255, 0) !important;
+}
+.active-service{
+    color: #86BB46!important;
+}
