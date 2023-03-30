@@ -491,7 +491,7 @@ body {
 		padding-left: calc(var(--bs-gutter-x) * .8);
 	} 
 	.sticky-header{
-		position: relative  !important;
+		/* position: relative  !important; */
 	}
     /** Main menu resoposive **/
 	.pbmit-menu-wrap {
@@ -703,7 +703,7 @@ body {
 		max-height: 50px; 
 	}
     .site-header .sticky-header .site-branding img {
-		 max-height: 35px; 
+		 /* max-height: 35px;  */
 	}
 	.site-header .site-navigation ul.navigation > li > a{
 		color: var(--pbmit-blackish-color);
@@ -1604,3 +1604,9 @@ body {
 @media (max-width: 1740px){
 
 }
+@media(max-width:500px){
+    .about-heading {
+    text-align: left !important;
+    /* margin: 2% 0%; */
+}
+}	

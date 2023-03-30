@@ -79,9 +79,9 @@
      *     - `{ gradient: ['red', 'green', 'blue'], gradientDirection: [x0, y0, x1, y1] }`
      *     - `{ gradient: [["red", .2], ["green", .3], ["blue", .8]] }`
      *   - image:
-     *     - `{ image: 'http://i.imgur.com/pT0i89v.png' }`
+     *     - `{ image: 'http://i.imgur.com/pT0i89v.webp' }`
      *     - `{ image: imageObject }`
-     *     - `{ color: 'lime', image: 'http://i.imgur.com/pT0i89v.png' }` -
+     *     - `{ color: 'lime', image: 'http://i.imgur.com/pT0i89v.webp' }` -
      *       color displayed until the image is loaded
      *
      * @default {gradient: ['#3aeabb', '#fdd250']}

@@ -4,7 +4,7 @@
     position: relative;
     top: 0;
     margin: 28px 0px;
-    background-image: url(../images/output-onlinepngtools.png);
+    background-image: url(../images/output-onlinepngtools.webp);
     background-size: 124em 54em;
     background-repeat: no-repeat;
 }
@@ -42,6 +42,7 @@
     text-align: center !important;
     margin: 2% 0%;
 }
+
 .about-info-light{
     /* border: 2px solid red; */
     /* width: 36em; */
@@ -208,13 +209,13 @@
     align-items: center;
     /* grid-template-rows: 1fr 1fr; */
     position: relative;
-    /* background-image: url(../images/portfolio-bg-img.png);
+    /* background-image: url(../images/portfolio-bg-img.webp);
     background-repeat: no-repeat; */
 }
 .portfolio-cards::before {
     position: absolute;
     content: "";
-    background-image: url(../images/porfolio-bg-img3.jpg);
+    background-image: url(../images/porfolio-bg-img3.webp);
     background-size: cover;
     background-repeat: no-repeat;
     inset: 0;
@@ -353,12 +354,12 @@ button {
   border-radius:4px;
 }
 button:hover {
-  background:gray;
+  /* background:gray; */
 }
 button:after {
     font-family: 'FontAwesome', sans-serif;
     font-weight: 300;
-    content: "\f105";
+    /* content: "\f105"; */
     margin-left: 4px;
     color: black;
     font-size: 22px;

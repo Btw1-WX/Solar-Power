@@ -397,3 +397,7 @@
 		swiper: swiper,
 		},
 	});
+
+  AOS.init({
+    // offset:1000,
+  });
