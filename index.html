@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html  lang="en">
 
 <!-- Mirrored from greenly-demo.pbminfotech.com/html-demo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Feb 2023 17:10:38 GMT -->
 
@@ -14,6 +14,8 @@
 	<link rel="shortcut icon" type="image/x-icon"  href="./favicon.png">
 	<!-- CSS
          ============================================ -->
+		 
+	<link rel="stylesheet" href="./css/aos.css">
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<!-- Fontawesome -->
@@ -41,9 +43,6 @@
 	<!-- REVOLUTION STYLE SHEETS -->
 	<link rel="stylesheet" type="text/css" href="revolution/rs6.css">
 	<!-- AOS animate -->
-	<link rel="stylesheet" href="./css/aos.css">
-	<!-- animate -->
-	<link rel="stylesheet" href="./css/animate.css">
 </head>
 
 <body>
@@ -226,62 +225,6 @@
 		<!-- Page Content -->
 		<div class="page-content">
 
-			<!-- About Us Start -->
-			<!-- <section class="">
-				<div class="container">
-					<div class="row align-items-center">
-						<div class="col-lg-12 col-xl-6">
-							<div class="about-img-section section-lgt">
-								<div class="about-img-section-inner">
-
-									<div class="about-img-top">
-										<img src="images/homepage-2/img-01.jpg" class="img-fluid " alt="">
-									</div>
-									<div class="button-wrapper">
-										<a href="about-us.html" class="button">
-											<span class="button-content-wrapper">
-												<span class="button-text">GET IT KNOW </span>
-												<span class="button-icon">
-													<i aria-hidden="true" class="fa fa-chevron-right"></i>
-												</span>
-											</span>
-										</a>
-									</div>
-									<div class="about-img-bottom">
-										<img src="images/homepage-2/img-02.jpg" class="img-fluid " alt="">
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-12 col-xl-6">
-							<div class="about-section-two">
-								<div class="pbmit-heading-subheading">
-									<h4 class="pbmit-subtitle">ABOUT COMPANY</h4>
-									<h2 class="pbmit-title">We’re the #1 solar energy <br>provider!</h2>
-									<p>We believe we can make a difference to this world, to this very earth on which we
-										live.We have been destroying the forests for whatever reasons for many years.
-									</p>
-								</div>
-								<ul class="list-group list-group-borderless">
-									<li class="list-group-item">
-										<i class="fa fa-check"></i> Satisfaction Value For Money Solution
-									</li>
-									<li class="list-group-item">
-										<i class="fa fa-check"></i> Business Accounting Management
-									</li>
-									<li class="list-group-item">
-										<i class="fa fa-check"></i> The world as it is heavily dependent
-									</li>
-									<li class="list-group-item">
-										<i class="fa fa-check"></i> Satisfaction Value For Money Solution
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section> -->
-
 			<section class="aboutus">
 				<div class="aboutus-bg-img">
 
@@ -290,8 +233,8 @@
 					<div class="about-head ">
 						<span>ABOUT COMPANY</span>
 					</div>
-					<div class="about-heading ">
-						<h1 class="fade-right">We’re the #1 solar energy provider!</h1>
+					<div class="about-heading " data-aos="flip-left" data-aos-duration="2000">
+						<h1 >We’re the #1 solar energy provider!</h1>
 
 						<p>We believe we can make a difference to this world, to this very earth on which welive.We have
 							been destroying the forests for whatever reasons for many years Lorem ipsum dolor sit amet
@@ -335,11 +278,11 @@
 
 				<div class="container our-services-head">
 					<div class="pbmit-heading-subheading text-center">
-						<h4 class="pbmit-subtitle pos"> OUR SERVICES </h4>
+						<h4 class="pbmit-subtitle pos" data-aos=""> OUR SERVICES </h4>
 						<h2 class="pbmit-title">We Offer Different Services</h2>
 					</div>
 					<div class="row our-services-cards">
-						<div class="col-md-4 fade-left">
+						<div class="col-md-4 " data-aos="fade-right" data-aos-once="false” data-aos-duration="2000">
 							<article class="pbmit-service-style-1">
 								<div class="pbminfotech-post-item">
 									<div class="pbmit-featured-wrapper">
@@ -376,7 +319,7 @@
 								</div>
 							</article>
 						</div>
-						<div class="col-md-4 fade-up">
+						<div class="col-md-4 " data-aos="fade-up" data-aos-duration="2000">
 							<article class="pbmit-service-style-1">
 								<div class="pbminfotech-post-item">
 									<div class="pbmit-featured-wrapper">
@@ -413,7 +356,7 @@
 								</div>
 							</article>
 						</div>
-						<div class="col-md-4 fade-right">
+						<div class="col-md-4" data-aos="fade-left" data-aos-duration="2000">
 							<article class="pbmit-service-style-1">
 								<div class="pbminfotech-post-item">
 									<div class="pbmit-featured-wrapper">
@@ -1074,7 +1017,7 @@
 		</div>
 	</div>
 	<!-- Search Box End Here -->
-
+	<script src="./js/aos.js"></script>
 	<!-- JS
          ============================================ -->
 	<!-- jQuery JS -->
@@ -1098,17 +1041,20 @@
 	<!-- Scripts JS -->
 	<script src="js/scripts.js"></script>
 	<!-- javascript  annimation-->
-	<script src="./js/animate.js"></script>
 	<!-- Revolution JS -->
 	<script src="revolution/rslider.js"></script>
 	<script src="revolution/rbtools.min.js"></script>
 	<script src="revolution/rs6.min.js"></script>
 	<!-- AOS -->
-	<script src="./js/aos.js"></script>
+	
 
 </body>
-<script>AOS.init()</script>
+<script>
+// 	document.addEventListener("DOMContentLoaded", function() {
+//     setTimeout(function() { AOS.refresh(); }, 500);
+// });
 
+</script>
 <!-- Mirrored from greenly-demo.pbminfotech.com/html-demo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Feb 2023 17:10:56 GMT -->
 
 </html>

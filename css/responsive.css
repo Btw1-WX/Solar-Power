@@ -1604,3 +1604,9 @@ body {
 @media (max-width: 1740px){
 
 }
+@media(max-width:500px){
+    .about-heading {
+    text-align: left !important;
+    /* margin: 2% 0%; */
+}
+}	
