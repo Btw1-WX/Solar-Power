@@ -398,6 +398,4 @@
 		},
 	});
 
-  AOS.init({
-    offset:500,
-  });
+  AOS.init();
