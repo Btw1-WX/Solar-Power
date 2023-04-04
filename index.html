@@ -43,6 +43,8 @@
 	<!-- REVOLUTION STYLE SHEETS -->
 	<link rel="stylesheet" type="text/css" href="revolution/rs6.css">
 	<!-- AOS animate -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -335,7 +337,7 @@
 						<h2 class="pbmit-title">We Offer Different Services</h2>
 					</div>
 					<div class="row our-services-cards">
-						<div class="col-md-4 " data-aos="fade-right" data-aos-once="false” data-aos-duration="2000">
+						<div class="col-md-4 " data-aos="fade-right"  data-aos-duration="2000">
 							<article class="pbmit-service-style-1">
 								<div class="pbminfotech-post-item">
 									<div class="pbmit-featured-wrapper">
@@ -951,6 +953,81 @@
 			</div>
 			<div class="clients-controls"></div>
 		  </div>
+
+		  <section class="section-lg pbmit-bg-color-light our-services-main">
+
+			<div class="container our-services-head">
+				<div class="pbmit-heading-subheading text-center">
+					<h4 class="pbmit-subtitle pos" data-aos=""> Our Partners </h4>
+					<!-- <h2 class="pbmit-title">We Offer Different Services</h2> -->
+				</div>
+				<div class="row our-services-cards">
+					<div class="col " data-aos="fade-right"  data-aos-duration="2000">
+						<article class="pbmit-service-style-1 owl-carousel owl-theme">
+							<div class="pbminfotech-post-item d-flex  item">
+								<div class="pbmit-featured-wrapper ">
+									<img src="images/service/service-img-01.webp" width ="500px" height ="500px"class="img-fluid"
+										alt="">
+								</div>
+								<div class="pbminfotech-box-content">
+									
+									<div class="pbminfotech-box-content-inner">
+										<div class="pbmit-service-category">
+											<span class="pbmit-service-cat">
+												<a href="service.html" rel="tag">SOLAR LS</a>
+											</span>
+										</div>
+										<h3 class="pbmit-service-title">
+											<a href="./service-pages/shp.html">Second Hand Panel</a>
+										</h3>
+										<div class="pbmit-service-content">
+											<p>Lorem ipsum dolor sit amet consem et ctetuering adipisc elit sed
+												diam.</p>
+										</div>
+										<div class="pbmit-service-btn">
+											<div class="btn3-inline">
+												<a class="btn3-color-globalcolor"
+													href="services-details.html">More</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="pbminfotech-post-item d-flex  item">
+								<div class="pbmit-featured-wrapper ">
+									<img src="images/service/service-img-01.webp" width ="500px" height ="500px"class="img-fluid"
+										alt="">
+								</div>
+								<div class="pbminfotech-box-content">
+									
+									<div class="pbminfotech-box-content-inner">
+										<div class="pbmit-service-category">
+											<span class="pbmit-service-cat">
+												<a href="service.html" rel="tag">SOLAR PANELS</a>
+											</span>
+										</div>
+										<h3 class="pbmit-service-title">
+											<a href="./service-pages/shp.html">Second Hand Panel</a>
+										</h3>
+										<div class="pbmit-service-content">
+											<p>Lorem ipsum dolor sit amet consem et ctetuering adipisc elit sed
+												diam.</p>
+										</div>
+										<div class="pbmit-service-btn">
+											<div class="btn3-inline">
+												<a class="btn3-color-globalcolor"
+													href="services-details.html">More</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
+		
 		<!-- footer -->
 		<footer class="footer-style-1 footer site-footer">
 			<div class="pbmit-footer-widget-area">
@@ -1123,7 +1200,7 @@
 	<script src="revolution/rbtools.min.js"></script>
 	<script src="revolution/rs6.min.js"></script>
 	<!-- AOS -->
-	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </body>
 <script>
@@ -1144,6 +1221,30 @@ if (mediaQuery.matches) {
 	});
 	}
 }
-</script>
+
+	$('.owl-carousel').owlCarousel({
+		loop:true,
+		autoplay:true,
+		margin:10,
+		nav:false,
+		dots:false,
+		autoplayTimeout:2000,
+		autoplaySpeed: 1100,
+		// autoplayTimeout: 2200,
+		autoplayHoverPause: true,
+		responsive:{
+			0:{
+				items:1
+			},
+			600:{
+				items:1
+			},
+			1000:{
+				items:1
+			}
+		}
+	})
+	
+	</script>
 
 </html>
