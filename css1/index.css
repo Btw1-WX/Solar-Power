@@ -215,7 +215,7 @@
 .portfolio-cards::before {
     position: absolute;
     content: "";
-    background-image: url(../images/porfolio-bg-img3.webp);
+    background-image: url(../images/panels/23.webp);
     background-size: cover;
     background-repeat: no-repeat;
     inset: 0;
