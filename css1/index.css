@@ -432,7 +432,7 @@ button:hover:after {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: #181818;
+    /* background-color: #181818; */
    
 }
 
@@ -541,7 +541,7 @@ button:hover:after {
     position: relative;
 }
 .clients-controls button:hover{
-    background-color: #00DBFF;
+    background-color: var(--pbmit-global-color);
 }
 
 /* .clients-controls-previous::before{
