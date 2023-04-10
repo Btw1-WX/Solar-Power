@@ -901,6 +901,11 @@ div#choose-lottie {
 /*----------------------------------------*/
 /*01 - Inner Page 
 /*----------------------------------------*/
+
+#more {display: none;}
+#more1 {display: none;}
+#more2 {display: none;}
+#more3 {display: none;}
 /** 00  About Us 1 **/
 .about-us-1-section{
 	margin-top: 75px;
@@ -2362,6 +2367,14 @@ padding: 0 20px;
 
 }
 
+@media  (max-width: 760px) {
+  
+    .partners{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+}
+
 
 /* Animation class */
 
@@ -2435,4 +2448,7 @@ padding: 0 20px;
 }
 .active-service{
     color: #86BB46!important;
+}
+.partners-row{
+    box-shadow: 5px 10px #888888;
 }
