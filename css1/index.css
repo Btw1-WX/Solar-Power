@@ -68,25 +68,32 @@
 }
 
 .aboutus img {
-    max-height: 101px;
-    /* border: 1px solid red; */
-    max-width: 73em;
+    margin: 0 2rem;
 }
 
 .details ul .list-group-item {
-    /* border: 2px solid red; */
-    margin: auto;
-    max-width: 14em;
+    position: absolute;
     text-align: center;
 }
+
+.details ul .list-group-item:nth-child(1) {
+    left: 3%;
+}
+.details ul .list-group-item:nth-child(2) {
+    left: 31%;
+}
+.details ul .list-group-item:nth-child(3) {
+    left: 60%;
+}
+.details ul .list-group-item:nth-child(4) {
+    right: 4%;
+}
+
 
 .flex {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    /* border: 2px solid red; */
-    width: 74em;
+    width: 100%;
 }
 .respon{
     margin-top: 50px;
@@ -96,15 +103,29 @@
     /* border: 2px solid red; */
 }
 
-.flex ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    /* flex-wrap: wrap; */
-
+@media (max-width:767px) {
+    .details ul .list-group-item:nth-child(1) {
+        left: 3%;
+    }
+    .details ul .list-group-item:nth-child(2) {
+        left: 29%;
+    }
+    .details ul .list-group-item:nth-child(3) {
+        left: 57%;
+    }
+    .details ul .list-group-item:nth-child(4) {
+        right: 4%;
+    }
+    .details ul .list-group-item {
+        font-size: 15px;
+    }
 }
-
-
+@media (max-width:460px) {
+    .details ul .list-group-item {
+        word-break: break-word;
+        width: 4rem;
+    }
+}
 
 /* our services */
 .pbmit-subtitle {
@@ -354,9 +375,6 @@ button {
   transition:background 200ms;
   border-radius:4px;
 }
-button:hover {
-  /* background:gray; */
-}
 button:after {
     font-family: 'FontAwesome', sans-serif;
     font-weight: 300;
@@ -412,15 +430,6 @@ button:hover:after {
     width: auto;
 }
 }
-/* wictronix-logo */
-.wictronix-logo{
-    height: 30px;
-    width: 100px;
-    background: white;
-    padding: 5px;
-    border-radius: 10px;
-    border-radius: 7px;
-}
 
 /* Clients Section */
  
@@ -456,7 +465,7 @@ button:hover:after {
     transition: all 1s ease-in-out;
     width: 330px;
     z-index: 0;
-    padding: 5rem;
+    padding: 2rem;
     border: 2px solid white;
     border-radius: 15px;
     background-size: contain;
@@ -525,9 +534,9 @@ button:hover:after {
     color: #fff;
     border: 0;
     cursor: pointer;
-    width: 14rem;
-    height: 6rem;
-    font-size: 2rem;
+    width: 10rem;
+    height: 5rem;
+    font-size: 1.5rem;
     margin: 0 23px;
     text-transform: capitalize;
 }

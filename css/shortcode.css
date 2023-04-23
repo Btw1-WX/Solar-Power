@@ -4032,7 +4032,7 @@ color: rgb(0, 255, 0);
     margin: 35px 0 40px;
 }
 .pbmit-footerlogo {
-    /* margin-bottom: -5px; */
+    border-radius: 1rem;
     max-height: 93px;
 }
 .site-footer .widget .pbmit-contact-widget-phone {

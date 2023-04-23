@@ -1042,7 +1042,11 @@ body {
 		margin-bottom: 50px;
 	}
 	.project-section-two {
-		padding: 60px 30px;
+		padding: 60px 10px;
+	}
+	.port-card-info .readmore-flex p {
+		margin: 9px 5px;
+		font-size: 18px;
 	}
 	.project-section-two .col-md-2 {
 		flex: 0 0 100%;

@@ -477,6 +477,7 @@ body .pbmit-bg-color-white{
      display: inline-block;
      max-width: 100%;
      height: auto;
+     background: white;
      max-height: 60px;
      z-index: 1;
      position: relative;

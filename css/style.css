@@ -1191,6 +1191,8 @@ div#choose-lottie {
 .site-header-menu .site-title img{
     width: 85px !important;
     height: 120px !important;
+    background: white;
+    border-radius: 1rem;
 } 
 
 .Project-Style-1 .pbmit-portfolio-style-1{
