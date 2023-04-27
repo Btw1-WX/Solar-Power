@@ -433,7 +433,7 @@ button:hover:after {
 
 /* Clients Section */
  
-.clients{
+/* .clients{
     width: 100%;
     padding: 5rem 0;
     text-align: center;
@@ -552,7 +552,7 @@ button:hover:after {
 }
 .clients-controls button:hover{
     background-color: var(--pbmit-global-color);
-}
+} */
 
 /* .clients-controls-previous::before{
     content: "";
