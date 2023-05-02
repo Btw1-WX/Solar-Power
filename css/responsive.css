@@ -1610,7 +1610,10 @@ body {
     text-align: left !important;
     /* margin: 2% 0%; */
 }
-.site-header{
-	padding-top: 100px;
+.pbmit-slider-area{
+	padding-top: 6rem;
+}
+.pbmit-header-overlay {
+	top: 0px;
 }
 }	

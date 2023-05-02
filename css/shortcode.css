@@ -774,16 +774,20 @@ body .pbmit-ihbox-style-1 .vc_btn3-color-globalcolor.vc_general.vc_btn3:after,
     box-shadow: 0 0px 30px rgb(0 0 0 / 3%);
     border-bottom: 1px solid transparent;
     position: absolute;
-    width: calc(100% - 30px);
+    width: 19rem;
     transform: translateY(0);
 }
 .pbmit-team-style-2 .pbminfotech-box-content {
     padding: 20px 30px 10px 25px;
     text-align: center;
 }
+.pbmit-featured-wrapper {
+    display: flex;
+    justify-content: center;
+}
 .pbmit-team-style-2 .pbmit-featured-wrapper img {
     border-radius: 2px;
-    width: 100%;
+    height: 25rem;
 }
 .pbmit-team-style-2 .pbminfotech-box-content .pbmit-team-title {
     font-size: 20px;
@@ -3374,6 +3378,10 @@ body .pbmit-service-style-3 .btn3-color-globalcolor{
 }
 .header-style-1 .pbmit-header-info-inner>.pbmit-header-box-3{
 	margin-right: 0;
+}
+.header-style-1 .pbmit-header-info-inner>.pbmit-header-box-3 .pbmit-header-box-icon a:nth-child(1) {
+    position: absolute;
+    left: 9.5rem;
 }
 .header-style-1 .pbmit-header-info-inner>div .pbmit-header-box-icon {
     position: absolute;
