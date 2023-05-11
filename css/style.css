@@ -2464,11 +2464,11 @@ padding: 0 20px;
 .residential .resi-img {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 3rem;
     justify-content: space-evenly;
 }
 .residential .resi-img img {
     width: 30rem;
+    margin-bottom: 3rem;
 }
 .residential p {
     margin: 0 4rem;
@@ -2476,4 +2476,14 @@ padding: 0 20px;
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 2.5rem;
+}
+
+@media (max-width: 976px) {
+    .residential .resi-img img {
+        width: 100%;
+        padding: 0 1.5rem;
+    }
+    .residential p {
+        margin: 0 1rem;
+    }
 }

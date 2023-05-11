@@ -3365,6 +3365,7 @@ body .pbmit-service-style-3 .btn3-color-globalcolor{
 }
 .header-style-1.site-header .site-branding img{
     max-height: 80px;
+    border-radius: 1rem;
 }
 .header-style-1 .pbmit-header-info-inner>.pbmit-header-box-1,
 .header-style-1 .pbmit-header-info-inner>.pbmit-header-box-2,
@@ -3381,7 +3382,7 @@ body .pbmit-service-style-3 .btn3-color-globalcolor{
 }
 .header-style-1 .pbmit-header-info-inner>.pbmit-header-box-3 .pbmit-header-box-icon a:nth-child(1) {
     position: absolute;
-    left: 9.5rem;
+    left: 10rem;
 }
 .header-style-1 .pbmit-header-info-inner>div .pbmit-header-box-icon {
     position: absolute;
@@ -3505,6 +3506,7 @@ color: rgb(0, 255, 0);
     color: var(--pbmit-white-color);
     letter-spacing: .3px;
     font-weight: 500;
+    border-radius: 1.5rem;
     display: block;
     padding: 0 30px;
 	height: 68px;
@@ -3535,6 +3537,7 @@ color: rgb(0, 255, 0);
 .header-style-1 .sticky-header .pbmit-header-button a{
 	height: 90px;
     line-height: 90px!important;
+    border-radius: 0;
 }
 /** Header style 2 **/
 .header-style-2 .pre-header {
@@ -3577,9 +3580,14 @@ color: rgb(0, 255, 0);
 }
 .header-style-2 .pbmit-header-button {
     background-color: var(--pbmit-global-color);
-    padding: 0 45px;
+    padding: 0 20px;
+    border-radius: 1.5rem;
     margin-left: 10px;
 }
+.header-style-2 .sticky-header .pbmit-header-button {
+    border-radius: 0;
+}
+
 .header-style-2 .pbmit-header-button:hover {
 	background-color: var(--pbmit-blackish-color);
 }

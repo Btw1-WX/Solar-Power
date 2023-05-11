@@ -59,38 +59,48 @@
     line-height: 38px;
 }
 
-.aboutus img {
+.aboutus .svg-img img {
     margin: 0 2rem;
 }
-
-.details ul .list-group-item {
-    position: absolute;
-    text-align: center;
-}
-
-.details ul .list-group-item:nth-child(1) {
-    left: 3%;
-}
-.details ul .list-group-item:nth-child(2) {
-    left: 31%;
-}
-.details ul .list-group-item:nth-child(3) {
-    left: 60%;
-}
-.details ul .list-group-item:nth-child(4) {
-    right: 4%;
-}
-
 
 .flex {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
+.details {
+    display: none;
+    flex-direction: column;
+    margin: 0 2rem;
+    align-items: center;
+}
+.details .details-area{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.details .details-area img {
+    width: 30%;
+}
+.details .details-area span {
+    color: black;
+    font-size: 20px;
+    margin: 1rem 0;
+}
+@media (max-width: 700px) {
+    .details {
+        display: flex;
+    }
+    .respon .svg-img {
+        display: none;
+    }
+}
 .respon{
     margin-top: 50px;
     justify-content: center;
     display: flex;
+    flex-direction: column;
     max-width: -webkit-fill-available;
     /* border: 2px solid red; */
 }
@@ -107,29 +117,6 @@
     line-height: 38px;
 }
 
-@media (max-width:767px) {
-    .details ul .list-group-item:nth-child(1) {
-        left: 3%;
-    }
-    .details ul .list-group-item:nth-child(2) {
-        left: 29%;
-    }
-    .details ul .list-group-item:nth-child(3) {
-        left: 57%;
-    }
-    .details ul .list-group-item:nth-child(4) {
-        right: 4%;
-    }
-    .details ul .list-group-item {
-        font-size: 15px;
-    }
-}
-@media (max-width:460px) {
-    .details ul .list-group-item {
-        word-break: break-word;
-        width: 4rem;
-    }
-}
 
 /* our services */
 .pbmit-subtitle {
@@ -265,33 +252,21 @@
 }
 /* card1 */
 .port-card1 {
-    box-shadow: 3px 2px 5px 1px #818181;
     width: -webkit-fill-available;
     opacity: 1;
-    background-color: rgb(0 0 0 / 30%);
     display: flex;
-    /* z-index: -1;
-    /* justify-content: ; */
-    /* z-index: -1; */
 }
 
 /* card2 */
 .port-card2 {
-    /* border: 2px solid red; */
-    box-shadow: 0px 0px 10px 9px rgb(153, 153, 153);
     width: -webkit-fill-available;
-    background-color:  rgb(0 0 0 / 30%);
     display: flex;
 justify-content: space-between
 
 }
 /* card3 */
 .port-card3 {
-    /* border: 2px solid red; */
     width: -webkit-fill-available;
-    box-shadow: 5px 5px 8px 3px rgb(153, 153, 153);
-    /* width: fit-content; */
-    background-color: rgb(0 0 0 / 30%);
     display: flex;
     opacity: 1;
 
