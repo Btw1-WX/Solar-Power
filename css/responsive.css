@@ -610,6 +610,7 @@ body {
 		 border-bottom: 1px solid rgba(9, 22, 42, 0.15); 
 	}
     .site-header .site-navigation ul.navigation > li > a {
+		display: block;
 		height: auto!important; 
 		line-height: inherit!important; 
 		padding: 15px 25px!important; 
@@ -704,6 +705,9 @@ body {
 	}
 	.site-header .site-navigation ul.navigation > li > a{
 		color: var(--pbmit-blackish-color);
+	}
+	.header-style-1 .navbar-collapse ul li a{
+		color: black
 	}
 }
 

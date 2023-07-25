@@ -22,11 +22,11 @@
 .about-head {
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    font-weight: 250;
+    font-weight: 600;
     color: var(--pbmit-global-color);
     padding: 10px 0px 22px 0px;
     width: 47em;
-    font-size: 23.5px;
+    font-size: 24px;
     border: 1px solid rgb(177, 177, 177);
     border-left: white;
     border-right: white;
@@ -48,9 +48,10 @@
     border: 2px solid black;
 }
 .about-heading p {
+    font-family: 'popins', sans-serif;
     margin-top: 2%;
-    font-family: var(--pbmit-body-typography-font-family);
-    font-weight: var(--pbmit-body-typography-variant);
+    /* font-weight: var(--pbmit-body-typography-variant); */
+    font-weight: 500;
     text-transform: none;
     font-style: normal;
     font-size: 23px;
@@ -80,7 +81,8 @@
 .details .details-area span {
     color: black;
     font-size: 24px;
-    margin: 1rem 0;
+    font-weight: 500;
+    margin: 1.5rem 0;
 }
 @media (max-width: 700px) {
     .details {
@@ -97,13 +99,14 @@
 }
 .respon .about-info-light {
     margin: 0 0 2rem 0;
-    font-family: var(--pbmit-body-typography-font-family);
-    font-weight: var(--pbmit-body-typography-variant);
+    font-family: 'popins', sans-serif;
+    /* font-weight: var(--pbmit-body-typography-variant); */
+    font-weight: 700;
     text-transform: none;
     font-style: normal;
-    font-size: 23px;
+    font-size: 38px;
     text-align: center;
-    color: #484848;
+    color: black;
     max-width: 62em;
     line-height: 38px;
 }
@@ -218,7 +221,7 @@
 }
 /* cards and info */
 .portfolio-card1 {
-    margin: 1px 10px;
+    margin: 1px 40px;
     width: auto;
     /* border: 2px solid red; */
     display: flex;
@@ -227,7 +230,7 @@
     z-index: 1;
 }
 .portfolio-card2 {
-    margin: 1px 10px;
+    margin: 1px 40px;
     width: auto;
     /* border: 2px solid red; */
     display: flex;
@@ -271,7 +274,7 @@ justify-content: space-between
 .port-info-flex
 {
     /* border: 10px solid rgb(139, 27, 143); */
-    width: -webkit-fill-available;
+    width: 85%;
     display: flex;
     justify-content: center;
     /* align-items: center; */
@@ -286,18 +289,19 @@ justify-content: space-between
     color: white;
     background-color: var(--pbmit-global-color);
     border-radius:4px ;
-    margin: 0px 14px;
+    margin: 0px 5px;
     margin-bottom: 31px
 }
 .port-card-info button {
-    background: rgb(255, 88, 27);
+    background: #182b2e;
     border: none;
+    margin-bottom: 1rem;
 }
 .port-card-info a:hover button{
     transition: all ease-in-out .5s;
     background: white;
     font-weight: 700;
-    color: rgb(255, 88, 27);
+    color: #182b2e;
     transform: translateY(-10px);
 }
 .port-card-info  h4{

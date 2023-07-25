@@ -57,6 +57,7 @@ var	tpj = jQuery;
 				revapi:"revapi2",
 				DPR:"dpr",
 				sliderLayout:"fullwidth",
+				duration:3500,
 				visibilityLevels:"1240,1024,1024,480",
 				gridwidth:"1230,1024,1024,480",
 				gridheight:"900,650,650,350",

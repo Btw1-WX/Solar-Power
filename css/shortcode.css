@@ -1314,8 +1314,8 @@ body .pbmit-ihbox-style-1 .vc_btn3-color-globalcolor.vc_general.vc_btn3:after,
     -o-transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
-.pbmit-service-style-1 img {
-    border-radius: 2px;
+.pbmit-service-style-1 img { 
+    border-radius: 1rem;
     box-shadow: 0 30px 50px rgba(0, 0, 0, 0.03);
 }
 .pbmit-service-style-1 .pbminfotech-box-content {
@@ -1327,6 +1327,8 @@ body .pbmit-ihbox-style-1 .vc_btn3-color-globalcolor.vc_general.vc_btn3:after,
 }
 .pbmit-service-style-1 .pbminfotech-box-content-inner {
     padding: 50px 30px 30px;
+    background-color: #182b2e;
+    border-radius: 1rem;
 }
 .pbmit-service-style-1 .pbmit-service-title {
     position: relative;
@@ -1358,9 +1360,10 @@ body .pbmit-ihbox-style-1 .vc_btn3-color-globalcolor.vc_general.vc_btn3:after,
 .pbmit-service-style-1 .btn3-color-globalcolor {
     background: none;
     padding: 0;
-    color: #222;
+    /* color: #222; */
+    color: white;
     text-align: left;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 16px;
     padding-right: 0;
     font-weight: 700;
@@ -1429,7 +1432,7 @@ body .pbmit-ihbox-style-1 .vc_btn3-color-globalcolor.vc_general.vc_btn3:after,
     border-radius: 2px;
 }
 .pbmit-service-style-2 .pbminfotech-box-content {
-    background-color: #fff;
+    background-color: #182b2e;
     border-radius: 2px;
     margin: -30px 15px 0;
     box-shadow: 0 30px 50px rgba(0, 0, 0, 0.03);
@@ -1840,6 +1843,9 @@ body .pbmit-service-style-3 .btn3-color-globalcolor{
 .pbmit-portfolio-style-1 .pbminfotech-post-item {
     position: relative;
     overflow: hidden;
+    border-radius: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 .pbmit-portfolio-style-1 img {
     width: 30rem;
@@ -3310,6 +3316,7 @@ body .pbmit-service-style-3 .btn3-color-globalcolor{
     text-align: center;
     width: 100%;
     height: 95px;
+    padding: 4px;
 }
 .site-title a {
     display: table-cell;
@@ -3355,6 +3362,7 @@ body .pbmit-service-style-3 .btn3-color-globalcolor{
     line-height: 35px;
     color: #e5e5e5;
     font-size: 13px;
+
 }
 .header-style-1 .pre-header{
 	height: inherit;
@@ -3409,10 +3417,10 @@ body .pbmit-service-style-3 .btn3-color-globalcolor{
 .pbmit-header-box-content {
     font-family: Roboto,sans-serif;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 26px;
     letter-spacing: 0;
-    color: #777777;
+    color: #222;
     text-transform: none;
     font-style: normal;
 }
@@ -3440,10 +3448,10 @@ body .pbmit-service-style-3 .btn3-color-globalcolor{
 	margin: 0 20px;
 	font-family: Roboto,sans-serif;
     font-weight: 700;
-    font-size: 13px;
+    font-size: 20px;
     line-height: 20px;
     letter-spacing: .5px;
-    color: #222;
+    color: white;
     text-transform: uppercase;
     font-style: normal;
 }
@@ -3500,7 +3508,7 @@ color: rgb(0, 255, 0);
     padding: 0 20px;
 }
 .header-style-1 .pbmit-header-button a {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 14px;
     background-color: var(--pbmit-global-color);
     color: var(--pbmit-white-color);
@@ -3525,7 +3533,7 @@ color: rgb(0, 255, 0);
     height: 90px;
 }
 .header-style-1 .site-header-menu.sticky-header {
-    height: 90px;
+    height: 93px;
     line-height: 90px!important;
 }
 .header-style-1 .sticky-header .navbar-collapse ul li {
@@ -3535,9 +3543,9 @@ color: rgb(0, 255, 0);
     border-left: inherit;
 }
 .header-style-1 .sticky-header .pbmit-header-button a{
-	height: 90px;
-    line-height: 90px!important;
-    border-radius: 0;
+	height: 70px;
+    line-height: 75px!important;
+    border-radius: 1.5rem;
 }
 /** Header style 2 **/
 .header-style-2 .pre-header {
@@ -3567,7 +3575,7 @@ color: rgb(0, 255, 0);
     margin-left: 30px;
 }
 .header-style-2.site-header .site-branding img{
-	max-height: 94px;
+	max-height: 90px;
 }
 .header-style-2 .pbmit-header-search-btn{
 	align-items: center;
@@ -3585,7 +3593,7 @@ color: rgb(0, 255, 0);
     margin-left: 10px;
 }
 .header-style-2 .sticky-header .pbmit-header-button {
-    border-radius: 0;
+    border-radius: 1.5rem;
 }
 
 .header-style-2 .pbmit-header-button:hover {
@@ -3596,9 +3604,9 @@ color: rgb(0, 255, 0);
     letter-spacing: .5px;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 14px;
-	height: 95px;
-    line-height: 95px;
+    font-size: 15px;
+	height: 50px;
+    line-height: 50px;
     display: inline-block;
 }
 .header-style-2 .pbmit-header-button a:before {
@@ -5444,13 +5452,14 @@ ul.list-group .list-group-item i{
 	box-sizing:content-box
 }
 #rev_slider_2_1_wrapper .hebe .tp-bullet{
-	width:3px; 
-	height:3px; 
+	width:30px; 
+	 height:0px;  
+    margin-left: -10px;
 	position:absolute; 
 	background:#ffffff; 
 	cursor:pointer; 
-	border:5px solid #000000; 
-	border-radius:50%; 
+	border:3px solid #6c757d; 
+	/* border-radius:50%;  */
 	box-sizing:content-box; 
 	-webkit-perspective:400; 
 	perspective:400; 

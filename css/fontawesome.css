@@ -1792,6 +1792,7 @@
 }
 .fa-whatsapp:before {
   content: "\f232";
+  margin-left: 1.5rem;
 }
 .fa-server:before {
   content: "\f233";

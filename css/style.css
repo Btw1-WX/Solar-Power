@@ -323,7 +323,7 @@
 }
 .project-section-two .col-md-2{
 	flex: 0 0 20%;
-    max-width: 100%;
+    max-width: 97%;
 }
 .counter-img_three{
 	text-align: right;
@@ -1188,9 +1188,6 @@ div#choose-lottie {
 
 
 .site-header-menu .site-title img{
-    width: 85px !important;
-    height: 120px !important;
-    background: white;
     border-radius: 1rem;
 } 
 
@@ -1373,6 +1370,14 @@ div#choose-lottie {
     margin-bottom: 5px;
     margin-top: 10px;
     font-family: Asap,sans-serif;
+}
+.pbmit-post-title a{
+    color: black;
+}
+
+.pbmit-post-title a:focus, .pbmit-post-title a:hover {
+    color: var(--pbmit-link-color-hover);
+    text-decoration: none !important;
 }
 .blog-classic .pbmit-blog-meta, .pbmit-blog-meta a {
     color: #616161;

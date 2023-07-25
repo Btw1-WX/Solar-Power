@@ -20,6 +20,7 @@
 }
 */
 [class^="pbmit-base-icon-"]:before, [class*=" pbmit-base-icon-"]:before {
+  color: yellowgreen;
   font-family: "pbminfotech-base-icons";
   font-style: normal;
   font-weight: normal;
